@@ -19,6 +19,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
+
 /**
  * @See https://www.tutorialspoint.com/servlets/servlets-form-data.htm for examples
  */
@@ -53,7 +54,7 @@ public class usersServlet extends HttpServlet {
             resp.getWriter().println("EMPTY_REQUEST");
         }
     }
- 
+
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
