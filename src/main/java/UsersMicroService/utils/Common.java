@@ -18,10 +18,7 @@ import java.util.Properties;
 import java.util.Random;
 import java.util.Set;
 
-/**
- *
- * @author A.Khalaev
- */
+
 public class Common
 {
     private static Logger log = LoggerFactory.getLogger(Common.class);

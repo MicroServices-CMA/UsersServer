@@ -1,6 +1,5 @@
 package UsersMicroService;
 
-//import com.sun.tools.sjavac.Log;
 import UsersMicroService.classes.fileProcessor;
 import UsersMicroService.handlers.usersServlet;
 import UsersMicroService.utils.Common;
@@ -14,8 +13,6 @@ import org.slf4j.LoggerFactory;
 import java.io.*;
 
 public class Main {
-    // Exception handling must be implemented after we finished developing the program
-    // For details see https://rollbar.com/guides/java-throwing-exceptions/
 
     private static Logger log = LoggerFactory.getLogger(Main.class.getSimpleName());
 
@@ -47,12 +44,6 @@ public class Main {
 
         server = new Server(port);
 
-        /**
-         * Using a ServletContextHandler will create and manage the common ServletContext for all the Servlets,
-         * Filters, Sessions, Security, etc within that ServletContextHandler. This includes proper initialization,
-         * load order, and destruction of the components affected by a ServletContext as well.
-         * @See https://stackoverflow.com/a/30735002 for exemple.
-         */
         ServletContextHandler context = new ServletContextHandler(ServletContextHandler.SESSIONS);
         context.setContextPath(contextStr);
         server.setHandler(context);
@@ -67,7 +58,6 @@ public class Main {
             server.start();
             log.info("Server has started at port: " + port);
             server.join();
-            log.info("Server joined.");
         }catch(Throwable t){
             log.error("Error while starting server.", t);
         }
