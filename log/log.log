@@ -1,0 +1,98 @@
+20:41:28,145 DEBUG log:initialized:176 - Logging to org.slf4j.impl.Log4jLoggerAdapter(org.eclipse.jetty.util.log) via org.eclipse.jetty.util.log.Slf4jLog
+20:41:28,178  INFO log:initialized:186 - Logging initialized @966ms
+20:41:28,197 DEBUG ContainerLifeCycle:addBean:324 - org.eclipse.jetty.server.Server@77f99a05 added {qtp213193302{STOPPED,8<=0<=200,i=0,q=0},AUTO}
+20:41:28,221 DEBUG ContainerLifeCycle:addBean:324 - HttpConnectionFactory@401e7803{HTTP/1.1} added {HttpConfiguration@10dba097{32768/8192,8192/8192,https://:0,[]},POJO}
+20:41:28,224 DEBUG ContainerLifeCycle:addBean:324 - ServerConnector@646007f4{null}{0.0.0.0:0} added {org.eclipse.jetty.server.Server@77f99a05,UNMANAGED}
+20:41:28,225 DEBUG ContainerLifeCycle:addBean:324 - ServerConnector@646007f4{null}{0.0.0.0:0} added {qtp213193302{STOPPED,8<=0<=200,i=0,q=0},AUTO}
+20:41:28,226 DEBUG ContainerLifeCycle:addBean:324 - ServerConnector@646007f4{null}{0.0.0.0:0} added {org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@706a04ae,AUTO}
+20:41:28,227 DEBUG ContainerLifeCycle:addBean:324 - ServerConnector@646007f4{null}{0.0.0.0:0} added {org.eclipse.jetty.io.ArrayByteBufferPool@481a15ff,POJO}
+20:41:28,227 DEBUG ContainerLifeCycle:addBean:324 - ServerConnector@646007f4{null}{0.0.0.0:0} added {HttpConnectionFactory@401e7803{HTTP/1.1},AUTO}
+20:41:28,229 DEBUG ContainerLifeCycle:addBean:324 - ServerConnector@646007f4{HTTP/1.1}{0.0.0.0:0} added {org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@4c762604,MANAGED}
+20:41:28,230 DEBUG ContainerLifeCycle:addBean:324 - org.eclipse.jetty.server.Server@77f99a05 added {ServerConnector@646007f4{HTTP/1.1}{0.0.0.0:7000},AUTO}
+20:41:28,272 DEBUG ContainerLifeCycle:addBean:324 - org.eclipse.jetty.server.session.SessionHandler@588df31b added {org.eclipse.jetty.server.session.HashSessionManager@33b37288,AUTO}
+20:41:28,272 DEBUG ContainerLifeCycle:addBean:324 - o.e.j.s.ServletContextHandler@77a57272{/,null,null} added {org.eclipse.jetty.server.session.SessionHandler@588df31b,AUTO}
+20:41:28,278 DEBUG ContainerLifeCycle:addBean:324 - org.eclipse.jetty.server.session.SessionHandler@588df31b added {org.eclipse.jetty.servlet.ServletHandler@12028586,AUTO}
+20:41:28,278 DEBUG ContainerLifeCycle:addBean:324 - org.eclipse.jetty.server.Server@77f99a05 added {o.e.j.s.ServletContextHandler@77a57272{/,null,null},AUTO}
+20:41:28,279 DEBUG ContainerLifeCycle:addBean:324 - org.eclipse.jetty.server.Server@77f99a05 added {org.eclipse.jetty.servlet.ServletHandler@17776a8,AUTO}
+20:41:28,291 DEBUG ContainerLifeCycle:addBean:324 - org.eclipse.jetty.servlet.ServletHandler@17776a8 added {UsersMicroService.handlers.usersServlet-5606c0b@999379ee==UsersMicroService.handlers.usersServlet,-1,false,AUTO}
+20:41:28,292 DEBUG ContainerLifeCycle:addBean:324 - org.eclipse.jetty.servlet.ServletHandler@17776a8 added {[/userData]=>UsersMicroService.handlers.usersServlet-5606c0b,POJO}
+20:41:28,293 DEBUG ContainerLifeCycle:addBean:324 - org.eclipse.jetty.servlet.ServletHandler@17776a8 added {UsersMicroService.handlers.HeartbeatServlet-10b48321@d928e95f==UsersMicroService.handlers.HeartbeatServlet,-1,false,AUTO}
+20:41:28,294 DEBUG ContainerLifeCycle:addBean:324 - org.eclipse.jetty.servlet.ServletHandler@17776a8 added {[/heart]=>UsersMicroService.handlers.HeartbeatServlet-10b48321,POJO}
+20:41:28,294 DEBUG AbstractLifeCycle:setStarting:185 - starting org.eclipse.jetty.server.Server@77f99a05
+20:41:28,297  INFO Server:doStart:326 - jetty-9.2.30.v20200428
+20:41:28,322 DEBUG AbstractHandler:doStart:58 - starting org.eclipse.jetty.server.Server@77f99a05
+20:41:28,323 DEBUG AbstractLifeCycle:setStarting:185 - starting qtp213193302{STOPPED,8<=0<=200,i=0,q=0}
+20:41:28,325 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @1113ms qtp213193302{STARTED,8<=8<=200,i=5,q=0}
+20:41:28,325 DEBUG AbstractLifeCycle:setStarting:185 - starting org.eclipse.jetty.servlet.ServletHandler@17776a8
+20:41:28,327 DEBUG ServletHandler:updateMappings:1494 - Chose path=/userData mapped to servlet=UsersMicroService.handlers.usersServlet-5606c0b from default=false
+20:41:28,328 DEBUG ServletHandler:updateMappings:1494 - Chose path=/heart mapped to servlet=UsersMicroService.handlers.HeartbeatServlet-10b48321 from default=false
+20:41:28,328 DEBUG ServletHandler:updateMappings:1515 - filterNameMap={}
+20:41:28,328 DEBUG ServletHandler:updateMappings:1516 - pathFilters=null
+20:41:28,328 DEBUG ServletHandler:updateMappings:1517 - servletFilterMap=null
+20:41:28,328 DEBUG ServletHandler:updateMappings:1518 - servletPathMap={/userData=UsersMicroService.handlers.usersServlet-5606c0b@999379ee==UsersMicroService.handlers.usersServlet,-1,false, /heart=UsersMicroService.handlers.HeartbeatServlet-10b48321@d928e95f==UsersMicroService.handlers.HeartbeatServlet,-1,false}
+20:41:28,329 DEBUG ServletHandler:updateMappings:1519 - servletNameMap={UsersMicroService.handlers.HeartbeatServlet-10b48321=UsersMicroService.handlers.HeartbeatServlet-10b48321@d928e95f==UsersMicroService.handlers.HeartbeatServlet,-1,false, UsersMicroService.handlers.usersServlet-5606c0b=UsersMicroService.handlers.usersServlet-5606c0b@999379ee==UsersMicroService.handlers.usersServlet,-1,false}
+20:41:28,329 DEBUG ServletHandler:doStart:164 - Adding Default404Servlet to org.eclipse.jetty.servlet.ServletHandler@17776a8
+20:41:28,330 DEBUG ContainerLifeCycle:addBean:324 - org.eclipse.jetty.servlet.ServletHandler@17776a8 added {org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-51b7e5df@a94921b7==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false,AUTO}
+20:41:28,330 DEBUG ContainerLifeCycle:addBean:324 - org.eclipse.jetty.servlet.ServletHandler@17776a8 added {[/]=>org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-51b7e5df,POJO}
+20:41:28,330 DEBUG ServletHandler:updateMappings:1494 - Chose path=/userData mapped to servlet=UsersMicroService.handlers.usersServlet-5606c0b from default=false
+20:41:28,330 DEBUG ServletHandler:updateMappings:1494 - Chose path=/heart mapped to servlet=UsersMicroService.handlers.HeartbeatServlet-10b48321 from default=false
+20:41:28,330 DEBUG ServletHandler:updateMappings:1494 - Chose path=/ mapped to servlet=org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-51b7e5df from default=false
+20:41:28,330 DEBUG ServletHandler:updateMappings:1515 - filterNameMap={}
+20:41:28,331 DEBUG ServletHandler:updateMappings:1516 - pathFilters=null
+20:41:28,331 DEBUG ServletHandler:updateMappings:1517 - servletFilterMap=null
+20:41:28,332 DEBUG ServletHandler:updateMappings:1518 - servletPathMap={/userData=UsersMicroService.handlers.usersServlet-5606c0b@999379ee==UsersMicroService.handlers.usersServlet,-1,false, /heart=UsersMicroService.handlers.HeartbeatServlet-10b48321@d928e95f==UsersMicroService.handlers.HeartbeatServlet,-1,false, /=org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-51b7e5df@a94921b7==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false}
+20:41:28,333 DEBUG ServletHandler:updateMappings:1519 - servletNameMap={UsersMicroService.handlers.HeartbeatServlet-10b48321=UsersMicroService.handlers.HeartbeatServlet-10b48321@d928e95f==UsersMicroService.handlers.HeartbeatServlet,-1,false, UsersMicroService.handlers.usersServlet-5606c0b=UsersMicroService.handlers.usersServlet-5606c0b@999379ee==UsersMicroService.handlers.usersServlet,-1,false, org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-51b7e5df=org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-51b7e5df@a94921b7==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false}
+20:41:28,334 DEBUG AbstractLifeCycle:setStarting:185 - starting UsersMicroService.handlers.HeartbeatServlet-10b48321@d928e95f==UsersMicroService.handlers.HeartbeatServlet,-1,false
+20:41:28,335 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @1124ms UsersMicroService.handlers.HeartbeatServlet-10b48321@d928e95f==UsersMicroService.handlers.HeartbeatServlet,-1,false
+20:41:28,336 DEBUG AbstractLifeCycle:setStarting:185 - starting UsersMicroService.handlers.usersServlet-5606c0b@999379ee==UsersMicroService.handlers.usersServlet,-1,false
+20:41:28,336 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @1125ms UsersMicroService.handlers.usersServlet-5606c0b@999379ee==UsersMicroService.handlers.usersServlet,-1,false
+20:41:28,336 DEBUG AbstractLifeCycle:setStarting:185 - starting org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-51b7e5df@a94921b7==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false
+20:41:28,336 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @1125ms org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-51b7e5df@a94921b7==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false
+20:41:28,337 DEBUG AbstractHandler:doStart:58 - starting org.eclipse.jetty.servlet.ServletHandler@17776a8
+20:41:28,337 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @1126ms org.eclipse.jetty.servlet.ServletHandler@17776a8
+20:41:28,337 DEBUG AbstractLifeCycle:setStarting:185 - starting ServerConnector@646007f4{HTTP/1.1}{0.0.0.0:7000}
+20:41:28,343  WARN AbstractLifeCycle:setFailed:212 - FAILED ServerConnector@646007f4{HTTP/1.1}{0.0.0.0:7000}: java.net.BindException: Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:321)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:365)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at UsersMicroService.Main.runServer(Main.java:61)
+	at UsersMicroService.Main.main(Main.java:29)
+20:41:28,344  WARN AbstractLifeCycle:setFailed:212 - FAILED org.eclipse.jetty.server.Server@77f99a05: java.net.BindException: Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:321)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:365)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at UsersMicroService.Main.runServer(Main.java:61)
+	at UsersMicroService.Main.main(Main.java:29)
+20:41:28,345 ERROR Main:runServer:65 - Error while starting server.
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:321)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:365)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at UsersMicroService.Main.runServer(Main.java:61)
+	at UsersMicroService.Main.main(Main.java:29)
