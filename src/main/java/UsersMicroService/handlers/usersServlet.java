@@ -55,7 +55,7 @@ public class usersServlet extends HttpServlet {
         }
     }
 
-
+    // nd
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         if (request != null) {
@@ -65,31 +65,36 @@ public class usersServlet extends HttpServlet {
                 Main.getLog().error("Error on clientId, value not provided.");
                 response.setContentType("application/json");
                 response.setStatus(HttpServletResponse.SC_BAD_REQUEST);
-                response.getWriter().println(Common.getPrettyGson().toJson("{ 'details' : 'Bad request' }"));
+                response.getWriter().println(Common.getPrettyGson().toJson(
+                        new Answer("BAD_REQUEST", "No clientId provided", null)));
                 return;
             }
             try {
                 if (Clients.getPeopleTable().containsKey(id)) {
                     response.setContentType("application/json");
                     response.setStatus(HttpServletResponse.SC_FOUND);
-                    response.getWriter().println(Common.getPrettyGson().toJson(Clients.getPeopleTable().get(id)));
+                    response.getWriter().println(Common.getPrettyGson().toJson(
+                            new Answer("FOUND", "The request was succesful", Clients.getPeopleTable().get(id))));
                     Main.getLog().error("Object found. Provided id: " + id);
                 } else {
                     response.setContentType("application/json");
-                    response.setStatus(HttpServletResponse.SC_NOT_FOUND);
-                    response.getWriter().println(Common.getPrettyGson().toJson("{ 'details' : 'Client Not found' }"));
+                    response.setStatus(HttpServletResponse.SC_NO_CONTENT);
+                    response.getWriter().println(Common.getPrettyGson().toJson(
+                            new Answer("NOT_FOUND","Client Not found", null)));
                     Main.getLog().error("Object not found. Provided id: " + id);
                 }
             } catch (Exception e) {
                 response.setContentType("application/json");
                 response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
-                response.getWriter().println(Common.getPrettyGson().toJson("{ 'details': 'Internal Error in Central Server.' }"));
+                response.getWriter().println(Common.getPrettyGson().toJson(
+                        new Answer("INTERNAL_SERVER_ERROR","An internal Error occurred on server UsersMicroService", null)));
                 Main.getLog().error("Error. " + e.getMessage());
             }
         } else {
             Main.getLog().error("Empty request.");
             response.setStatus(HttpServletResponse.SC_BAD_REQUEST);
-            response.getWriter().println(Common.getPrettyGson().toJson("{ 'details' : 'Bad request' }"));
+            response.getWriter().println(Common.getPrettyGson().toJson(
+                    new Answer("EMPTY_REQUEST", "The request provided was empty", null)));
         }
     }
 
