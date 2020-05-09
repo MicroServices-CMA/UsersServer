@@ -5,12 +5,12 @@ import UsersMicroService.classes.Client;
 public class Answer
 {
     private String status;
-    private String Details;
+    private String details;
     private Client client;
 
     public Answer(String status, String details, Client client) {
         this.status = status;
-        Details = details;
+        this.details = details;
         this.client = client;
     }
 
@@ -23,11 +23,11 @@ public class Answer
     }
 
     public String getDetails() {
-        return Details;
+        return details;
     }
 
     public void setDetails(String details) {
-        Details = details;
+        this.details = details;
     }
 
     public Client getClient() {
