@@ -1,6 +1,7 @@
 package UsersMicroService;
 
 import UsersMicroService.classes.fileProcessor;
+import UsersMicroService.handlers.HeartbeatServlet;
 import UsersMicroService.handlers.usersServlet;
 import UsersMicroService.utils.Common;
 import UsersMicroService.utils.PropertyManager;
@@ -53,6 +54,7 @@ public class Main {
         server.setHandler(handler);
 
         handler.addServletWithMapping(usersServlet.class, "/userData");
+        handler.addServletWithMapping(HeartbeatServlet.class, "/heart");
 
         try
         {
