@@ -1,19 +1,17 @@
 package UsersMicroService.Models;
 
-
 import UsersMicroService.classes.Client;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class Answer
 {
     private String status;
+    private String Details;
     private Client client;
 
-    public Answer(String status, Client people) {
+    public Answer(String status, String details, Client client) {
         this.status = status;
-        this.client = people;
+        Details = details;
+        this.client = client;
     }
 
     public String getStatus() {
@@ -24,11 +22,19 @@ public class Answer
         this.status = status;
     }
 
-    public Client getClients() {
+    public String getDetails() {
+        return Details;
+    }
+
+    public void setDetails(String details) {
+        Details = details;
+    }
+
+    public Client getClient() {
         return client;
     }
 
-    public void setClients(Client client) {
+    public void setClient(Client client) {
         this.client = client;
     }
 }
