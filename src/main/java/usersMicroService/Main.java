@@ -2,7 +2,7 @@ package usersMicroService;
 
 import usersMicroService.classes.fileProcessor;
 import usersMicroService.handlers.HeartbeatServlet;
-import usersMicroService.handlers.usersServlet;
+import usersMicroService.handlers.UsersServlet;
 import usersMicroService.utils.Common;
 import usersMicroService.utils.PropertyManager;
 import org.eclipse.jetty.server.Server;
@@ -39,10 +39,8 @@ public class Main {
         }, "Stop Jetty Hook"));
     }
 
-    private static void runServer() {
-        int port = PropertyManager.getPropertyAsInteger("server.port", 7000);
-        String contextStr = PropertyManager.getPropertyAsString("server.context", "/");
-
+    public static void runServer(int port, String contextStr)
+    {
         server = new Server(port);
 
         ServletContextHandler context = new ServletContextHandler(ServletContextHandler.SESSIONS);
@@ -52,21 +50,26 @@ public class Main {
         ServletHandler handler = new ServletHandler();
         server.setHandler(handler);
 
-        handler.addServletWithMapping(usersServlet.class, "/userData");
+        handler.addServletWithMapping(UsersServlet.class, "/userData");
         handler.addServletWithMapping(HeartbeatServlet.class, "/heart");
-
         try
         {
             server.start();
             log.info("Server has started at port: " + port);
             System.out.println("Server has started at port: " + port);
-            server.join();
         }catch(Throwable t){
             log.error("Error while starting server.", t);
         }
     }
 
-    private static void stopServer() {
+    private static void runServer() {
+        int port = PropertyManager.getPropertyAsInteger("server.port", 7000);
+        String contextStr = PropertyManager.getPropertyAsString("server.context", "/");
+
+        runServer(port, contextStr);
+    }
+
+    public static void stopServer() {
         try {
             if(server.isRunning()){
                 server.stop();

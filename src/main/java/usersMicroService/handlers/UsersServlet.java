@@ -23,9 +23,9 @@ import java.nio.charset.StandardCharsets;
 /**
  * @See https://www.tutorialspoint.com/servlets/servlets-form-data.htm for examples
  */
-public class usersServlet extends HttpServlet {
+public class UsersServlet extends HttpServlet {
 
-    private static Logger usersLog = LoggerFactory.getLogger(usersServlet.class.getSimpleName());
+    private static Logger usersLog = LoggerFactory.getLogger(UsersServlet.class.getSimpleName());
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
@@ -107,7 +107,7 @@ public class usersServlet extends HttpServlet {
     }
 
     public static void setUsersLog(Logger usersLog) {
-        usersServlet.usersLog = usersLog;
+        UsersServlet.usersLog = usersLog;
     }
 
     // TODO: 07.05.2020 Also consider overriding methods doHead, doPut, doDelete, doTrace, doOptions
