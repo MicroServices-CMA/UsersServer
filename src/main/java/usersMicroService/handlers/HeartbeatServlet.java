@@ -1,9 +1,10 @@
-package UsersMicroService.handlers;
+package usersMicroService.handlers;
 
-import UsersMicroService.Models.Answer;
-import UsersMicroService.utils.Common;
+import usersMicroService.models.Answer;
+import usersMicroService.utils.Common;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import usersMicroService.models.Answer;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
