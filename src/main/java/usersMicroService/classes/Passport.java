@@ -9,10 +9,6 @@ import java.util.*;
  * The <code>Passport</code> class is a simplified representation of a real passport.
  */
 public class Passport {
-    /*
-    LocalDate date = LocalDate.of(2019, Month.APRIL, 3); // To process only date
-    LocalTime time = LocalTime.of(17, 8, 32); // To process only time
-    */
 
     /** The surname of the passport owner. */
     private String surname;

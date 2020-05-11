@@ -33,7 +33,7 @@ public class Common
         builder.setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE);
         builder.setDateFormat("yyyy-MM-dd HH:mm:ss");
         prettyBuilder.setPrettyPrinting();
-        //prettyBuilder.setDateFormat("yyyy-MM-dd HH:mm:ss");
+        prettyBuilder.setDateFormat("yyyy-MM-dd HH:mm:ss");
     }
     private static Gson gsonUCC = builder.serializeNulls().create();
     private static Gson prettyGson = prettyBuilder.create();
@@ -59,20 +59,12 @@ public class Common
     }
 
     public static <A, B> void addToMap(Map<A, Set<B>> map, A a, B b){
-        Set<B> set = map.get(a);
-        if(set == null){
-            set = new HashSet<B>();
-            map.put(a, set);
-        }
+        Set<B> set = map.computeIfAbsent(a, k -> new HashSet<B>());
         set.add(b);
     }
 
     public static <A, B> void addToMapList(Map<A, List<B>> map, A a, B b){
-        List<B> list = map.get(a);
-        if(list == null){
-            list = new ArrayList<B>();
-            map.put(a, list);
-        }
+        List<B> list = map.computeIfAbsent(a, k -> new ArrayList<B>());
         list.add(b);
     }
 

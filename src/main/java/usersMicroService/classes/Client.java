@@ -11,8 +11,8 @@ public class Client implements Comparable<Client>, Serializable, Cloneable
 
     private String clientId;
     private Passport passport;
-    private String phone; // To check phone number format before storing it, see https://stackoverflow.com/a/5114914
-    private String email; // To check email format before storing it, see https://mkyong.com/regular-expressions/how-to-validate-email-address-with-regular-expression/
+    private String phone;
+    private String email;
     private PhysicalAddress address;
 
     static  {incrementClient = Clients.getPeopleTable().size();}

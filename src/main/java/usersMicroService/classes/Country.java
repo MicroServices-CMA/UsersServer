@@ -5,7 +5,7 @@ import java.util.Locale;
 import java.util.Map;
 
 public class Country implements Comparable<Country> {
-    @SuppressWarnings("CanBeFinal")
+
     static private Map<String, Country> countries = new HashMap<>();
 
     private String iso; /** 2-letter country code defined in <i> ISO-3166 <i> */
