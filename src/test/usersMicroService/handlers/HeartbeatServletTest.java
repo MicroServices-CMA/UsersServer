@@ -16,7 +16,7 @@ import static org.junit.Assert.*;
 public class HeartbeatServletTest {
 
     @Before
-    public void init()
+    public void setUp()
     {
         Main.runServer(7000, "/");
     }
@@ -32,7 +32,7 @@ public class HeartbeatServletTest {
     }
 
     @After
-    public void entTest()
+    public void tearDown()
     {
         Main.stopServer();
     }
