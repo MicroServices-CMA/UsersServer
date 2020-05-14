@@ -1,5 +1,6 @@
 package usersMicroService.utils;
 
+import org.apache.log4j.PropertyConfigurator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,21 +12,16 @@ import java.util.Properties;
 // The Properties can be saved to a stream or loaded from a stream.
 // Each key and its corresponding value in the property list is a string.
 
-/**
- *
- * @author hankd
- */
-public class PropertyManager
-{
+public class PropertyManager {
+    public static final String propsPath = "./usersData.props";
     private static Logger log = LoggerFactory.getLogger(PropertyManager.class.getSimpleName());
     private static Properties properties = new Properties();
 
-    public static final String propsPath = "./usersData.props";
-    public static Map<String, String> getPropertiesByPrefix(String prefix){
+    public static Map<String, String> getPropertiesByPrefix(String prefix) {
         Map<String, String> map = new HashMap<>();
 
-        for(String name: properties.stringPropertyNames()){
-            if(name.startsWith(prefix)){
+        for (String name : properties.stringPropertyNames()) {
+            if (name.startsWith(prefix)) {
                 map.put(name.substring(prefix.length()), properties.getProperty(name));
             }
         }
@@ -33,11 +29,11 @@ public class PropertyManager
         return map;
     }
 
-    public static void load() throws Exception
-    {
+    public static void load() throws Exception {
         properties.load(new FileInputStream(propsPath));
         //PropertyConfigurator.configure(properties);
     }
+
     public static Integer getPropertyAsInteger(String name, Integer defaultVal) throws PropertyNotFindException {
         return Integer.decode(getPropertyAsString(name, String.valueOf(defaultVal)));
     }
@@ -67,8 +63,7 @@ public class PropertyManager
         return properties.containsKey(name);
     }
 
-    public final class PropertyNotFindException extends RuntimeException
-    {
+    public final class PropertyNotFindException extends RuntimeException {
         public PropertyNotFindException(String message) {
             super(message);
         }

@@ -17,41 +17,52 @@
       "passportExpirationDate": "2021-07-05 00:00:00",
       "photo": [],
       "countriesVisited": {
-        "The People\u0027s Republic of China": [{
-          "startDate": "2016-02-02 00:00:00",
-          "endDate": "2016-02-15 00:00:00",
-          "purpose": "Business trip at a forum."
-        }, {
-          "startDate": "2017-04-01 00:00:00",
-          "endDate": "2017-04-016 00:00:00",
-          "purpose": "Travel to receive a chirurgical operation."
-        }, {
-          "startDate": "2019-05-02 00:00:00",
-          "endDate": "2019-05-15 00:00:00",
-          "purpose": "Travel to buy new machinery for the company."
-        }],
-        "The Republic of Chad": [{
-          "startDate": "2015-04-15 00:00:00",
-          "endDate": "2015-04-22 00:00:00",
-          "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
-        }, {
-          "startDate": "2015-05-28 00:00:00",
-          "endDate": "2015-06-15 00:00:00",
-          "purpose": "Casual trip to a friend wedding."
-        }, {
-          "startDate": "2016-06-04 00:00:00",
-          "endDate": "2016-07-23 00:00:00",
-          "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
-        }],
-        "The United Kingdom of Great Britain and Northern Ireland": [{
-          "startDate": "2014-12-24 00:00:00",
-          "endDate": "2015-01-14 00:00:00",
-          "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
-        }, {
-          "startDate": "2015-04-17 00:00:00",
-          "endDate": "2015-04-26 00:00:00",
-          "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
-        }]
+        "The People\u0027s Republic of China": [
+          {
+            "startDate": "2016-02-02 00:00:00",
+            "endDate": "2016-02-15 00:00:00",
+            "purpose": "Business trip at a forum."
+          },
+          {
+            "startDate": "2017-04-01 00:00:00",
+            "endDate": "2017-04-016 00:00:00",
+            "purpose": "Travel to receive a chirurgical operation."
+          },
+          {
+            "startDate": "2019-05-02 00:00:00",
+            "endDate": "2019-05-15 00:00:00",
+            "purpose": "Travel to buy new machinery for the company."
+          }
+        ],
+        "The Republic of Chad": [
+          {
+            "startDate": "2015-04-15 00:00:00",
+            "endDate": "2015-04-22 00:00:00",
+            "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
+          },
+          {
+            "startDate": "2015-05-28 00:00:00",
+            "endDate": "2015-06-15 00:00:00",
+            "purpose": "Casual trip to a friend wedding."
+          },
+          {
+            "startDate": "2016-06-04 00:00:00",
+            "endDate": "2016-07-23 00:00:00",
+            "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
+          }
+        ],
+        "The United Kingdom of Great Britain and Northern Ireland": [
+          {
+            "startDate": "2014-12-24 00:00:00",
+            "endDate": "2015-01-14 00:00:00",
+            "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
+          },
+          {
+            "startDate": "2015-04-17 00:00:00",
+            "endDate": "2015-04-26 00:00:00",
+            "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
+          }
+        ]
       }
     },
     "phone": "9853254485",
@@ -81,41 +92,52 @@
       "passportExpirationDate": "2021-04-17 00:00:00",
       "photo": [],
       "countriesVisited": {
-        "The People\u0027s Republic of China": [{
-          "startDate": "2016-02-02 00:00:00",
-          "endDate": "2016-02-15 00:00:00",
-          "purpose": "Business trip at a forum."
-        }, {
-          "startDate": "2017-04-01 00:00:00",
-          "endDate": "2017-04-016 00:00:00",
-          "purpose": "Travel to receive a chirurgical operation."
-        }, {
-          "startDate": "2019-05-02 00:00:00",
-          "endDate": "2019-05-15 00:00:00",
-          "purpose": "Travel to buy new machinery for the company."
-        }],
-        "The Republic of Chad": [{
-          "startDate": "2015-04-15 00:00:00",
-          "endDate": "2015-04-22 00:00:00",
-          "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
-        }, {
-          "startDate": "2015-05-28 00:00:00",
-          "endDate": "2015-06-15 00:00:00",
-          "purpose": "Casual trip to a friend wedding."
-        }, {
-          "startDate": "2016-06-04 00:00:00",
-          "endDate": "2016-07-23 00:00:00",
-          "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
-        }],
-        "The United Kingdom of Great Britain and Northern Ireland": [{
-          "startDate": "2014-12-24 00:00:00",
-          "endDate": "2015-01-14 00:00:00",
-          "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
-        }, {
-          "startDate": "2015-04-17 00:00:00",
-          "endDate": "2015-04-26 00:00:00",
-          "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
-        }]
+        "The People\u0027s Republic of China": [
+          {
+            "startDate": "2016-02-02 00:00:00",
+            "endDate": "2016-02-15 00:00:00",
+            "purpose": "Business trip at a forum."
+          },
+          {
+            "startDate": "2017-04-01 00:00:00",
+            "endDate": "2017-04-016 00:00:00",
+            "purpose": "Travel to receive a chirurgical operation."
+          },
+          {
+            "startDate": "2019-05-02 00:00:00",
+            "endDate": "2019-05-15 00:00:00",
+            "purpose": "Travel to buy new machinery for the company."
+          }
+        ],
+        "The Republic of Chad": [
+          {
+            "startDate": "2015-04-15 00:00:00",
+            "endDate": "2015-04-22 00:00:00",
+            "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
+          },
+          {
+            "startDate": "2015-05-28 00:00:00",
+            "endDate": "2015-06-15 00:00:00",
+            "purpose": "Casual trip to a friend wedding."
+          },
+          {
+            "startDate": "2016-06-04 00:00:00",
+            "endDate": "2016-07-23 00:00:00",
+            "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
+          }
+        ],
+        "The United Kingdom of Great Britain and Northern Ireland": [
+          {
+            "startDate": "2014-12-24 00:00:00",
+            "endDate": "2015-01-14 00:00:00",
+            "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
+          },
+          {
+            "startDate": "2015-04-17 00:00:00",
+            "endDate": "2015-04-26 00:00:00",
+            "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
+          }
+        ]
       }
     },
     "phone": "9853254485",
@@ -145,41 +167,52 @@
       "passportExpirationDate": "2021-04-17 00:00:00",
       "photo": [],
       "countriesVisited": {
-        "The People\u0027s Republic of China": [{
-          "startDate": "2016-02-02 00:00:00",
-          "endDate": "2016-02-15 00:00:00",
-          "purpose": "Business trip at a forum."
-        }, {
-          "startDate": "2017-04-01 00:00:00",
-          "endDate": "2017-04-016 00:00:00",
-          "purpose": "Travel to receive a chirurgical operation."
-        }, {
-          "startDate": "2019-05-02 00:00:00",
-          "endDate": "2019-05-15 00:00:00",
-          "purpose": "Travel to buy new machinery for the company."
-        }],
-        "The Republic of Chad": [{
-          "startDate": "2015-04-15 00:00:00",
-          "endDate": "2015-04-22 00:00:00",
-          "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
-        }, {
-          "startDate": "2015-05-28 00:00:00",
-          "endDate": "2015-06-15 00:00:00",
-          "purpose": "Casual trip to a friend wedding."
-        }, {
-          "startDate": "2016-06-04 00:00:00",
-          "endDate": "2016-07-23 00:00:00",
-          "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
-        }],
-        "The United Kingdom of Great Britain and Northern Ireland": [{
-          "startDate": "2014-12-24 00:00:00",
-          "endDate": "2015-01-14 00:00:00",
-          "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
-        }, {
-          "startDate": "2015-04-17 00:00:00",
-          "endDate": "2015-04-26 00:00:00",
-          "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
-        }]
+        "The People\u0027s Republic of China": [
+          {
+            "startDate": "2016-02-02 00:00:00",
+            "endDate": "2016-02-15 00:00:00",
+            "purpose": "Business trip at a forum."
+          },
+          {
+            "startDate": "2017-04-01 00:00:00",
+            "endDate": "2017-04-016 00:00:00",
+            "purpose": "Travel to receive a chirurgical operation."
+          },
+          {
+            "startDate": "2019-05-02 00:00:00",
+            "endDate": "2019-05-15 00:00:00",
+            "purpose": "Travel to buy new machinery for the company."
+          }
+        ],
+        "The Republic of Chad": [
+          {
+            "startDate": "2015-04-15 00:00:00",
+            "endDate": "2015-04-22 00:00:00",
+            "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
+          },
+          {
+            "startDate": "2015-05-28 00:00:00",
+            "endDate": "2015-06-15 00:00:00",
+            "purpose": "Casual trip to a friend wedding."
+          },
+          {
+            "startDate": "2016-06-04 00:00:00",
+            "endDate": "2016-07-23 00:00:00",
+            "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
+          }
+        ],
+        "The United Kingdom of Great Britain and Northern Ireland": [
+          {
+            "startDate": "2014-12-24 00:00:00",
+            "endDate": "2015-01-14 00:00:00",
+            "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
+          },
+          {
+            "startDate": "2015-04-17 00:00:00",
+            "endDate": "2015-04-26 00:00:00",
+            "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
+          }
+        ]
       }
     },
     "phone": "9853254485",
@@ -209,41 +242,52 @@
       "passportExpirationDate": "2021-04-17 00:00:00",
       "photo": [],
       "countriesVisited": {
-        "The People\u0027s Republic of China": [{
-          "startDate": "2016-02-02 00:00:00",
-          "endDate": "2016-02-15 00:00:00",
-          "purpose": "Business trip at a forum."
-        }, {
-          "startDate": "2017-04-01 00:00:00",
-          "endDate": "2017-04-016 00:00:00",
-          "purpose": "Travel to receive a chirurgical operation."
-        }, {
-          "startDate": "2019-05-02 00:00:00",
-          "endDate": "2019-05-15 00:00:00",
-          "purpose": "Travel to buy new machinery for the company."
-        }],
-        "The Republic of Chad": [{
-          "startDate": "2015-04-15 00:00:00",
-          "endDate": "2015-04-22 00:00:00",
-          "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
-        }, {
-          "startDate": "2015-05-28 00:00:00",
-          "endDate": "2015-06-15 00:00:00",
-          "purpose": "Casual trip to a friend wedding."
-        }, {
-          "startDate": "2016-06-04 00:00:00",
-          "endDate": "2016-07-23 00:00:00",
-          "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
-        }],
-        "The United Kingdom of Great Britain and Northern Ireland": [{
-          "startDate": "2014-12-24 00:00:00",
-          "endDate": "2015-01-14 00:00:00",
-          "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
-        }, {
-          "startDate": "2015-04-17 00:00:00",
-          "endDate": "2015-04-26 00:00:00",
-          "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
-        }]
+        "The People\u0027s Republic of China": [
+          {
+            "startDate": "2016-02-02 00:00:00",
+            "endDate": "2016-02-15 00:00:00",
+            "purpose": "Business trip at a forum."
+          },
+          {
+            "startDate": "2017-04-01 00:00:00",
+            "endDate": "2017-04-016 00:00:00",
+            "purpose": "Travel to receive a chirurgical operation."
+          },
+          {
+            "startDate": "2019-05-02 00:00:00",
+            "endDate": "2019-05-15 00:00:00",
+            "purpose": "Travel to buy new machinery for the company."
+          }
+        ],
+        "The Republic of Chad": [
+          {
+            "startDate": "2015-04-15 00:00:00",
+            "endDate": "2015-04-22 00:00:00",
+            "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
+          },
+          {
+            "startDate": "2015-05-28 00:00:00",
+            "endDate": "2015-06-15 00:00:00",
+            "purpose": "Casual trip to a friend wedding."
+          },
+          {
+            "startDate": "2016-06-04 00:00:00",
+            "endDate": "2016-07-23 00:00:00",
+            "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
+          }
+        ],
+        "The United Kingdom of Great Britain and Northern Ireland": [
+          {
+            "startDate": "2014-12-24 00:00:00",
+            "endDate": "2015-01-14 00:00:00",
+            "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
+          },
+          {
+            "startDate": "2015-04-17 00:00:00",
+            "endDate": "2015-04-26 00:00:00",
+            "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
+          }
+        ]
       }
     },
     "phone": "9853254485",
@@ -273,41 +317,52 @@
       "passportExpirationDate": "2021-04-17 00:00:00",
       "photo": [],
       "countriesVisited": {
-        "The People\u0027s Republic of China": [{
-          "startDate": "2016-02-02 00:00:00",
-          "endDate": "2016-02-15 00:00:00",
-          "purpose": "Business trip at a forum."
-        }, {
-          "startDate": "2017-04-01 00:00:00",
-          "endDate": "2017-04-016 00:00:00",
-          "purpose": "Travel to receive a chirurgical operation."
-        }, {
-          "startDate": "2019-05-02 00:00:00",
-          "endDate": "2019-05-15 00:00:00",
-          "purpose": "Travel to buy new machinery for the company."
-        }],
-        "The Republic of Chad": [{
-          "startDate": "2015-04-15 00:00:00",
-          "endDate": "2015-04-22 00:00:00",
-          "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
-        }, {
-          "startDate": "2015-05-28 00:00:00",
-          "endDate": "2015-06-15 00:00:00",
-          "purpose": "Casual trip to a friend wedding."
-        }, {
-          "startDate": "2016-06-04 00:00:00",
-          "endDate": "2016-07-23 00:00:00",
-          "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
-        }],
-        "The United Kingdom of Great Britain and Northern Ireland": [{
-          "startDate": "2014-12-24 00:00:00",
-          "endDate": "2015-01-14 00:00:00",
-          "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
-        }, {
-          "startDate": "2015-04-17 00:00:00",
-          "endDate": "2015-04-26 00:00:00",
-          "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
-        }]
+        "The People\u0027s Republic of China": [
+          {
+            "startDate": "2016-02-02 00:00:00",
+            "endDate": "2016-02-15 00:00:00",
+            "purpose": "Business trip at a forum."
+          },
+          {
+            "startDate": "2017-04-01 00:00:00",
+            "endDate": "2017-04-016 00:00:00",
+            "purpose": "Travel to receive a chirurgical operation."
+          },
+          {
+            "startDate": "2019-05-02 00:00:00",
+            "endDate": "2019-05-15 00:00:00",
+            "purpose": "Travel to buy new machinery for the company."
+          }
+        ],
+        "The Republic of Chad": [
+          {
+            "startDate": "2015-04-15 00:00:00",
+            "endDate": "2015-04-22 00:00:00",
+            "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
+          },
+          {
+            "startDate": "2015-05-28 00:00:00",
+            "endDate": "2015-06-15 00:00:00",
+            "purpose": "Casual trip to a friend wedding."
+          },
+          {
+            "startDate": "2016-06-04 00:00:00",
+            "endDate": "2016-07-23 00:00:00",
+            "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
+          }
+        ],
+        "The United Kingdom of Great Britain and Northern Ireland": [
+          {
+            "startDate": "2014-12-24 00:00:00",
+            "endDate": "2015-01-14 00:00:00",
+            "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
+          },
+          {
+            "startDate": "2015-04-17 00:00:00",
+            "endDate": "2015-04-26 00:00:00",
+            "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
+          }
+        ]
       }
     },
     "phone": "9853254485",
@@ -337,41 +392,52 @@
       "passportExpirationDate": "2021-04-17 00:00:00",
       "photo": [],
       "countriesVisited": {
-        "The People\u0027s Republic of China": [{
-          "startDate": "2016-02-02 00:00:00",
-          "endDate": "2016-02-15 00:00:00",
-          "purpose": "Business trip at a forum."
-        }, {
-          "startDate": "2017-04-01 00:00:00",
-          "endDate": "2017-04-016 00:00:00",
-          "purpose": "Travel to receive a chirurgical operation."
-        }, {
-          "startDate": "2019-05-02 00:00:00",
-          "endDate": "2019-05-15 00:00:00",
-          "purpose": "Travel to buy new machinery for the company."
-        }],
-        "The Republic of Chad": [{
-          "startDate": "2015-04-15 00:00:00",
-          "endDate": "2015-04-22 00:00:00",
-          "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
-        }, {
-          "startDate": "2015-05-28 00:00:00",
-          "endDate": "2015-06-15 00:00:00",
-          "purpose": "Casual trip to a friend wedding."
-        }, {
-          "startDate": "2016-06-04 00:00:00",
-          "endDate": "2016-07-23 00:00:00",
-          "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
-        }],
-        "The United Kingdom of Great Britain and Northern Ireland": [{
-          "startDate": "2014-12-24 00:00:00",
-          "endDate": "2015-01-14 00:00:00",
-          "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
-        }, {
-          "startDate": "2015-04-17 00:00:00",
-          "endDate": "2015-04-26 00:00:00",
-          "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
-        }]
+        "The People\u0027s Republic of China": [
+          {
+            "startDate": "2016-02-02 00:00:00",
+            "endDate": "2016-02-15 00:00:00",
+            "purpose": "Business trip at a forum."
+          },
+          {
+            "startDate": "2017-04-01 00:00:00",
+            "endDate": "2017-04-016 00:00:00",
+            "purpose": "Travel to receive a chirurgical operation."
+          },
+          {
+            "startDate": "2019-05-02 00:00:00",
+            "endDate": "2019-05-15 00:00:00",
+            "purpose": "Travel to buy new machinery for the company."
+          }
+        ],
+        "The Republic of Chad": [
+          {
+            "startDate": "2015-04-15 00:00:00",
+            "endDate": "2015-04-22 00:00:00",
+            "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
+          },
+          {
+            "startDate": "2015-05-28 00:00:00",
+            "endDate": "2015-06-15 00:00:00",
+            "purpose": "Casual trip to a friend wedding."
+          },
+          {
+            "startDate": "2016-06-04 00:00:00",
+            "endDate": "2016-07-23 00:00:00",
+            "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
+          }
+        ],
+        "The United Kingdom of Great Britain and Northern Ireland": [
+          {
+            "startDate": "2014-12-24 00:00:00",
+            "endDate": "2015-01-14 00:00:00",
+            "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
+          },
+          {
+            "startDate": "2015-04-17 00:00:00",
+            "endDate": "2015-04-26 00:00:00",
+            "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
+          }
+        ]
       }
     },
     "phone": "96584254",
@@ -401,41 +467,52 @@
       "passportExpirationDate": "2021-04-17 00:00:00",
       "photo": [],
       "countriesVisited": {
-        "The People\u0027s Republic of China": [{
-          "startDate": "2016-02-02 00:00:00",
-          "endDate": "2016-02-15 00:00:00",
-          "purpose": "Business trip at a forum."
-        }, {
-          "startDate": "2017-04-01 00:00:00",
-          "endDate": "2017-04-016 00:00:00",
-          "purpose": "Travel to receive a chirurgical operation."
-        }, {
-          "startDate": "2019-05-02 00:00:00",
-          "endDate": "2019-05-15 00:00:00",
-          "purpose": "Travel to buy new machinery for the company."
-        }],
-        "The Republic of Chad": [{
-          "startDate": "2015-04-15 00:00:00",
-          "endDate": "2015-04-22 00:00:00",
-          "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
-        }, {
-          "startDate": "2015-05-28 00:00:00",
-          "endDate": "2015-06-15 00:00:00",
-          "purpose": "Casual trip to a friend wedding."
-        }, {
-          "startDate": "2016-06-04 00:00:00",
-          "endDate": "2016-07-23 00:00:00",
-          "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
-        }],
-        "The United Kingdom of Great Britain and Northern Ireland": [{
-          "startDate": "2014-12-24 00:00:00",
-          "endDate": "2015-01-14 00:00:00",
-          "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
-        }, {
-          "startDate": "2015-04-17 00:00:00",
-          "endDate": "2015-04-26 00:00:00",
-          "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
-        }]
+        "The People\u0027s Republic of China": [
+          {
+            "startDate": "2016-02-02 00:00:00",
+            "endDate": "2016-02-15 00:00:00",
+            "purpose": "Business trip at a forum."
+          },
+          {
+            "startDate": "2017-04-01 00:00:00",
+            "endDate": "2017-04-016 00:00:00",
+            "purpose": "Travel to receive a chirurgical operation."
+          },
+          {
+            "startDate": "2019-05-02 00:00:00",
+            "endDate": "2019-05-15 00:00:00",
+            "purpose": "Travel to buy new machinery for the company."
+          }
+        ],
+        "The Republic of Chad": [
+          {
+            "startDate": "2015-04-15 00:00:00",
+            "endDate": "2015-04-22 00:00:00",
+            "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
+          },
+          {
+            "startDate": "2015-05-28 00:00:00",
+            "endDate": "2015-06-15 00:00:00",
+            "purpose": "Casual trip to a friend wedding."
+          },
+          {
+            "startDate": "2016-06-04 00:00:00",
+            "endDate": "2016-07-23 00:00:00",
+            "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
+          }
+        ],
+        "The United Kingdom of Great Britain and Northern Ireland": [
+          {
+            "startDate": "2014-12-24 00:00:00",
+            "endDate": "2015-01-14 00:00:00",
+            "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
+          },
+          {
+            "startDate": "2015-04-17 00:00:00",
+            "endDate": "2015-04-26 00:00:00",
+            "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
+          }
+        ]
       }
     },
     "phone": "96584254",
@@ -465,41 +542,52 @@
       "passportExpirationDate": "2021-04-17 00:00:00",
       "photo": [],
       "countriesVisited": {
-        "The People\u0027s Republic of China": [{
-          "startDate": "2016-02-02 00:00:00",
-          "endDate": "2016-02-15 00:00:00",
-          "purpose": "Business trip at a forum."
-        }, {
-          "startDate": "2017-04-01 00:00:00",
-          "endDate": "2017-04-016 00:00:00",
-          "purpose": "Travel to receive a chirurgical operation."
-        }, {
-          "startDate": "2019-05-02 00:00:00",
-          "endDate": "2019-05-15 00:00:00",
-          "purpose": "Travel to buy new machinery for the company."
-        }],
-        "The Republic of Chad": [{
-          "startDate": "2015-04-15 00:00:00",
-          "endDate": "2015-04-22 00:00:00",
-          "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
-        }, {
-          "startDate": "2015-05-28 00:00:00",
-          "endDate": "2015-06-15 00:00:00",
-          "purpose": "Casual trip to a friend wedding."
-        }, {
-          "startDate": "2016-06-04 00:00:00",
-          "endDate": "2016-07-23 00:00:00",
-          "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
-        }],
-        "The United Kingdom of Great Britain and Northern Ireland": [{
-          "startDate": "2014-12-24 00:00:00",
-          "endDate": "2015-01-14 00:00:00",
-          "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
-        }, {
-          "startDate": "2015-04-17 00:00:00",
-          "endDate": "2015-04-26 00:00:00",
-          "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
-        }]
+        "The People\u0027s Republic of China": [
+          {
+            "startDate": "2016-02-02 00:00:00",
+            "endDate": "2016-02-15 00:00:00",
+            "purpose": "Business trip at a forum."
+          },
+          {
+            "startDate": "2017-04-01 00:00:00",
+            "endDate": "2017-04-016 00:00:00",
+            "purpose": "Travel to receive a chirurgical operation."
+          },
+          {
+            "startDate": "2019-05-02 00:00:00",
+            "endDate": "2019-05-15 00:00:00",
+            "purpose": "Travel to buy new machinery for the company."
+          }
+        ],
+        "The Republic of Chad": [
+          {
+            "startDate": "2015-04-15 00:00:00",
+            "endDate": "2015-04-22 00:00:00",
+            "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
+          },
+          {
+            "startDate": "2015-05-28 00:00:00",
+            "endDate": "2015-06-15 00:00:00",
+            "purpose": "Casual trip to a friend wedding."
+          },
+          {
+            "startDate": "2016-06-04 00:00:00",
+            "endDate": "2016-07-23 00:00:00",
+            "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
+          }
+        ],
+        "The United Kingdom of Great Britain and Northern Ireland": [
+          {
+            "startDate": "2014-12-24 00:00:00",
+            "endDate": "2015-01-14 00:00:00",
+            "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
+          },
+          {
+            "startDate": "2015-04-17 00:00:00",
+            "endDate": "2015-04-26 00:00:00",
+            "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
+          }
+        ]
       }
     },
     "phone": "96584254",
@@ -529,41 +617,52 @@
       "passportExpirationDate": "2021-04-17 00:00:00",
       "photo": [],
       "countriesVisited": {
-        "The People\u0027s Republic of China": [{
-          "startDate": "2016-02-02 00:00:00",
-          "endDate": "2016-02-15 00:00:00",
-          "purpose": "Business trip at a forum."
-        }, {
-          "startDate": "2017-04-01 00:00:00",
-          "endDate": "2017-04-016 00:00:00",
-          "purpose": "Travel to receive a chirurgical operation."
-        }, {
-          "startDate": "2019-05-02 00:00:00",
-          "endDate": "2019-05-15 00:00:00",
-          "purpose": "Travel to buy new machinery for the company."
-        }],
-        "The Republic of Chad": [{
-          "startDate": "2015-04-15 00:00:00",
-          "endDate": "2015-04-22 00:00:00",
-          "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
-        }, {
-          "startDate": "2015-05-28 00:00:00",
-          "endDate": "2015-06-15 00:00:00",
-          "purpose": "Casual trip to a friend wedding."
-        }, {
-          "startDate": "2016-06-04 00:00:00",
-          "endDate": "2016-07-23 00:00:00",
-          "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
-        }],
-        "The United Kingdom of Great Britain and Northern Ireland": [{
-          "startDate": "2014-12-24 00:00:00",
-          "endDate": "2015-01-14 00:00:00",
-          "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
-        }, {
-          "startDate": "2015-04-17 00:00:00",
-          "endDate": "2015-04-26 00:00:00",
-          "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
-        }]
+        "The People\u0027s Republic of China": [
+          {
+            "startDate": "2016-02-02 00:00:00",
+            "endDate": "2016-02-15 00:00:00",
+            "purpose": "Business trip at a forum."
+          },
+          {
+            "startDate": "2017-04-01 00:00:00",
+            "endDate": "2017-04-016 00:00:00",
+            "purpose": "Travel to receive a chirurgical operation."
+          },
+          {
+            "startDate": "2019-05-02 00:00:00",
+            "endDate": "2019-05-15 00:00:00",
+            "purpose": "Travel to buy new machinery for the company."
+          }
+        ],
+        "The Republic of Chad": [
+          {
+            "startDate": "2015-04-15 00:00:00",
+            "endDate": "2015-04-22 00:00:00",
+            "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
+          },
+          {
+            "startDate": "2015-05-28 00:00:00",
+            "endDate": "2015-06-15 00:00:00",
+            "purpose": "Casual trip to a friend wedding."
+          },
+          {
+            "startDate": "2016-06-04 00:00:00",
+            "endDate": "2016-07-23 00:00:00",
+            "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
+          }
+        ],
+        "The United Kingdom of Great Britain and Northern Ireland": [
+          {
+            "startDate": "2014-12-24 00:00:00",
+            "endDate": "2015-01-14 00:00:00",
+            "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
+          },
+          {
+            "startDate": "2015-04-17 00:00:00",
+            "endDate": "2015-04-26 00:00:00",
+            "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
+          }
+        ]
       }
     },
     "phone": "9958231578",
@@ -593,41 +692,52 @@
       "passportExpirationDate": "2021-04-17 00:00:00",
       "photo": [],
       "countriesVisited": {
-        "The People\u0027s Republic of China": [{
-          "startDate": "2016-02-02 00:00:00",
-          "endDate": "2016-02-15 00:00:00",
-          "purpose": "Business trip at a forum."
-        }, {
-          "startDate": "2017-04-01 00:00:00",
-          "endDate": "2017-04-016 00:00:00",
-          "purpose": "Travel to receive a chirurgical operation."
-        }, {
-          "startDate": "2019-05-02 00:00:00",
-          "endDate": "2019-05-15 00:00:00",
-          "purpose": "Travel to buy new machinery for the company."
-        }],
-        "The Republic of Chad": [{
-          "startDate": "2015-04-15 00:00:00",
-          "endDate": "2015-04-22 00:00:00",
-          "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
-        }, {
-          "startDate": "2015-05-28 00:00:00",
-          "endDate": "2015-06-15 00:00:00",
-          "purpose": "Casual trip to a friend wedding."
-        }, {
-          "startDate": "2016-06-04 00:00:00",
-          "endDate": "2016-07-23 00:00:00",
-          "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
-        }],
-        "The United Kingdom of Great Britain and Northern Ireland": [{
-          "startDate": "2014-12-24 00:00:00",
-          "endDate": "2015-01-14 00:00:00",
-          "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
-        }, {
-          "startDate": "2015-04-17 00:00:00",
-          "endDate": "2015-04-26 00:00:00",
-          "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
-        }]
+        "The People\u0027s Republic of China": [
+          {
+            "startDate": "2016-02-02 00:00:00",
+            "endDate": "2016-02-15 00:00:00",
+            "purpose": "Business trip at a forum."
+          },
+          {
+            "startDate": "2017-04-01 00:00:00",
+            "endDate": "2017-04-016 00:00:00",
+            "purpose": "Travel to receive a chirurgical operation."
+          },
+          {
+            "startDate": "2019-05-02 00:00:00",
+            "endDate": "2019-05-15 00:00:00",
+            "purpose": "Travel to buy new machinery for the company."
+          }
+        ],
+        "The Republic of Chad": [
+          {
+            "startDate": "2015-04-15 00:00:00",
+            "endDate": "2015-04-22 00:00:00",
+            "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
+          },
+          {
+            "startDate": "2015-05-28 00:00:00",
+            "endDate": "2015-06-15 00:00:00",
+            "purpose": "Casual trip to a friend wedding."
+          },
+          {
+            "startDate": "2016-06-04 00:00:00",
+            "endDate": "2016-07-23 00:00:00",
+            "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
+          }
+        ],
+        "The United Kingdom of Great Britain and Northern Ireland": [
+          {
+            "startDate": "2014-12-24 00:00:00",
+            "endDate": "2015-01-14 00:00:00",
+            "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
+          },
+          {
+            "startDate": "2015-04-17 00:00:00",
+            "endDate": "2015-04-26 00:00:00",
+            "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
+          }
+        ]
       }
     },
     "phone": "9958231578",
@@ -657,41 +767,52 @@
       "passportExpirationDate": "2021-04-17 00:00:00",
       "photo": [],
       "countriesVisited": {
-        "The People\u0027s Republic of China": [{
-          "startDate": "2016-02-02 00:00:00",
-          "endDate": "2016-02-15 00:00:00",
-          "purpose": "Business trip at a forum."
-        }, {
-          "startDate": "2017-04-01 00:00:00",
-          "endDate": "2017-04-016 00:00:00",
-          "purpose": "Travel to receive a chirurgical operation."
-        }, {
-          "startDate": "2019-05-02 00:00:00",
-          "endDate": "2019-05-15 00:00:00",
-          "purpose": "Travel to buy new machinery for the company."
-        }],
-        "The Republic of Chad": [{
-          "startDate": "2015-04-15 00:00:00",
-          "endDate": "2015-04-22 00:00:00",
-          "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
-        }, {
-          "startDate": "2015-05-28 00:00:00",
-          "endDate": "2015-06-15 00:00:00",
-          "purpose": "Casual trip to a friend wedding."
-        }, {
-          "startDate": "2016-06-04 00:00:00",
-          "endDate": "2016-07-23 00:00:00",
-          "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
-        }],
-        "The United Kingdom of Great Britain and Northern Ireland": [{
-          "startDate": "2014-12-24 00:00:00",
-          "endDate": "2015-01-14 00:00:00",
-          "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
-        }, {
-          "startDate": "2015-04-17 00:00:00",
-          "endDate": "2015-04-26 00:00:00",
-          "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
-        }]
+        "The People\u0027s Republic of China": [
+          {
+            "startDate": "2016-02-02 00:00:00",
+            "endDate": "2016-02-15 00:00:00",
+            "purpose": "Business trip at a forum."
+          },
+          {
+            "startDate": "2017-04-01 00:00:00",
+            "endDate": "2017-04-016 00:00:00",
+            "purpose": "Travel to receive a chirurgical operation."
+          },
+          {
+            "startDate": "2019-05-02 00:00:00",
+            "endDate": "2019-05-15 00:00:00",
+            "purpose": "Travel to buy new machinery for the company."
+          }
+        ],
+        "The Republic of Chad": [
+          {
+            "startDate": "2015-04-15 00:00:00",
+            "endDate": "2015-04-22 00:00:00",
+            "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
+          },
+          {
+            "startDate": "2015-05-28 00:00:00",
+            "endDate": "2015-06-15 00:00:00",
+            "purpose": "Casual trip to a friend wedding."
+          },
+          {
+            "startDate": "2016-06-04 00:00:00",
+            "endDate": "2016-07-23 00:00:00",
+            "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
+          }
+        ],
+        "The United Kingdom of Great Britain and Northern Ireland": [
+          {
+            "startDate": "2014-12-24 00:00:00",
+            "endDate": "2015-01-14 00:00:00",
+            "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
+          },
+          {
+            "startDate": "2015-04-17 00:00:00",
+            "endDate": "2015-04-26 00:00:00",
+            "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
+          }
+        ]
       }
     },
     "phone": "9853254485",
@@ -721,41 +842,52 @@
       "passportExpirationDate": "2021-04-17 00:00:00",
       "photo": [],
       "countriesVisited": {
-        "The People\u0027s Republic of China": [{
-          "startDate": "2016-02-02 00:00:00",
-          "endDate": "2016-02-15 00:00:00",
-          "purpose": "Business trip at a forum."
-        }, {
-          "startDate": "2017-04-01 00:00:00",
-          "endDate": "2017-04-016 00:00:00",
-          "purpose": "Travel to receive a chirurgical operation."
-        }, {
-          "startDate": "2019-05-02 00:00:00",
-          "endDate": "2019-05-15 00:00:00",
-          "purpose": "Travel to buy new machinery for the company."
-        }],
-        "The Republic of Chad": [{
-          "startDate": "2015-04-15 00:00:00",
-          "endDate": "2015-04-22 00:00:00",
-          "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
-        }, {
-          "startDate": "2015-05-28 00:00:00",
-          "endDate": "2015-06-15 00:00:00",
-          "purpose": "Casual trip to a friend wedding."
-        }, {
-          "startDate": "2016-06-04 00:00:00",
-          "endDate": "2016-07-23 00:00:00",
-          "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
-        }],
-        "The United Kingdom of Great Britain and Northern Ireland": [{
-          "startDate": "2014-12-24 00:00:00",
-          "endDate": "2015-01-14 00:00:00",
-          "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
-        }, {
-          "startDate": "2015-04-17 00:00:00",
-          "endDate": "2015-04-26 00:00:00",
-          "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
-        }]
+        "The People\u0027s Republic of China": [
+          {
+            "startDate": "2016-02-02 00:00:00",
+            "endDate": "2016-02-15 00:00:00",
+            "purpose": "Business trip at a forum."
+          },
+          {
+            "startDate": "2017-04-01 00:00:00",
+            "endDate": "2017-04-016 00:00:00",
+            "purpose": "Travel to receive a chirurgical operation."
+          },
+          {
+            "startDate": "2019-05-02 00:00:00",
+            "endDate": "2019-05-15 00:00:00",
+            "purpose": "Travel to buy new machinery for the company."
+          }
+        ],
+        "The Republic of Chad": [
+          {
+            "startDate": "2015-04-15 00:00:00",
+            "endDate": "2015-04-22 00:00:00",
+            "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
+          },
+          {
+            "startDate": "2015-05-28 00:00:00",
+            "endDate": "2015-06-15 00:00:00",
+            "purpose": "Casual trip to a friend wedding."
+          },
+          {
+            "startDate": "2016-06-04 00:00:00",
+            "endDate": "2016-07-23 00:00:00",
+            "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
+          }
+        ],
+        "The United Kingdom of Great Britain and Northern Ireland": [
+          {
+            "startDate": "2014-12-24 00:00:00",
+            "endDate": "2015-01-14 00:00:00",
+            "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
+          },
+          {
+            "startDate": "2015-04-17 00:00:00",
+            "endDate": "2015-04-26 00:00:00",
+            "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
+          }
+        ]
       }
     },
     "phone": "9332458544",
@@ -785,41 +917,52 @@
       "passportExpirationDate": "2021-04-17 00:00:00",
       "photo": [],
       "countriesVisited": {
-        "The People\u0027s Republic of China": [{
-          "startDate": "2016-02-02 00:00:00",
-          "endDate": "2016-02-15 00:00:00",
-          "purpose": "Business trip at a forum."
-        }, {
-          "startDate": "2017-04-01 00:00:00",
-          "endDate": "2017-04-016 00:00:00",
-          "purpose": "Travel to receive a chirurgical operation."
-        }, {
-          "startDate": "2019-05-02 00:00:00",
-          "endDate": "2019-05-15 00:00:00",
-          "purpose": "Travel to buy new machinery for the company."
-        }],
-        "The Republic of Chad": [{
-          "startDate": "2015-04-15 00:00:00",
-          "endDate": "2015-04-22 00:00:00",
-          "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
-        }, {
-          "startDate": "2015-05-28 00:00:00",
-          "endDate": "2015-06-15 00:00:00",
-          "purpose": "Casual trip to a friend wedding."
-        }, {
-          "startDate": "2016-06-04 00:00:00",
-          "endDate": "2016-07-23 00:00:00",
-          "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
-        }],
-        "The United Kingdom of Great Britain and Northern Ireland": [{
-          "startDate": "2014-12-24 00:00:00",
-          "endDate": "2015-01-14 00:00:00",
-          "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
-        }, {
-          "startDate": "2015-04-17 00:00:00",
-          "endDate": "2015-04-26 00:00:00",
-          "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
-        }]
+        "The People\u0027s Republic of China": [
+          {
+            "startDate": "2016-02-02 00:00:00",
+            "endDate": "2016-02-15 00:00:00",
+            "purpose": "Business trip at a forum."
+          },
+          {
+            "startDate": "2017-04-01 00:00:00",
+            "endDate": "2017-04-016 00:00:00",
+            "purpose": "Travel to receive a chirurgical operation."
+          },
+          {
+            "startDate": "2019-05-02 00:00:00",
+            "endDate": "2019-05-15 00:00:00",
+            "purpose": "Travel to buy new machinery for the company."
+          }
+        ],
+        "The Republic of Chad": [
+          {
+            "startDate": "2015-04-15 00:00:00",
+            "endDate": "2015-04-22 00:00:00",
+            "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
+          },
+          {
+            "startDate": "2015-05-28 00:00:00",
+            "endDate": "2015-06-15 00:00:00",
+            "purpose": "Casual trip to a friend wedding."
+          },
+          {
+            "startDate": "2016-06-04 00:00:00",
+            "endDate": "2016-07-23 00:00:00",
+            "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
+          }
+        ],
+        "The United Kingdom of Great Britain and Northern Ireland": [
+          {
+            "startDate": "2014-12-24 00:00:00",
+            "endDate": "2015-01-14 00:00:00",
+            "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
+          },
+          {
+            "startDate": "2015-04-17 00:00:00",
+            "endDate": "2015-04-26 00:00:00",
+            "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
+          }
+        ]
       }
     },
     "phone": "2714846978",
@@ -849,41 +992,52 @@
       "passportExpirationDate": "2021-04-17 00:00:00",
       "photo": [],
       "countriesVisited": {
-        "The People\u0027s Republic of China": [{
-          "startDate": "2016-02-02 00:00:00",
-          "endDate": "2016-02-15 00:00:00",
-          "purpose": "Business trip at a forum."
-        }, {
-          "startDate": "2017-04-01 00:00:00",
-          "endDate": "2017-04-016 00:00:00",
-          "purpose": "Travel to receive a chirurgical operation."
-        }, {
-          "startDate": "2019-05-02 00:00:00",
-          "endDate": "2019-05-15 00:00:00",
-          "purpose": "Travel to buy new machinery for the company."
-        }],
-        "The Republic of Chad": [{
-          "startDate": "2015-04-15 00:00:00",
-          "endDate": "2015-04-22 00:00:00",
-          "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
-        }, {
-          "startDate": "2015-05-28 00:00:00",
-          "endDate": "2015-06-15 00:00:00",
-          "purpose": "Casual trip to a friend wedding."
-        }, {
-          "startDate": "2016-06-04 00:00:00",
-          "endDate": "2016-07-23 00:00:00",
-          "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
-        }],
-        "The United Kingdom of Great Britain and Northern Ireland": [{
-          "startDate": "2014-12-24 00:00:00",
-          "endDate": "2015-01-14 00:00:00",
-          "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
-        }, {
-          "startDate": "2015-04-17 00:00:00",
-          "endDate": "2015-04-26 00:00:00",
-          "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
-        }]
+        "The People\u0027s Republic of China": [
+          {
+            "startDate": "2016-02-02 00:00:00",
+            "endDate": "2016-02-15 00:00:00",
+            "purpose": "Business trip at a forum."
+          },
+          {
+            "startDate": "2017-04-01 00:00:00",
+            "endDate": "2017-04-016 00:00:00",
+            "purpose": "Travel to receive a chirurgical operation."
+          },
+          {
+            "startDate": "2019-05-02 00:00:00",
+            "endDate": "2019-05-15 00:00:00",
+            "purpose": "Travel to buy new machinery for the company."
+          }
+        ],
+        "The Republic of Chad": [
+          {
+            "startDate": "2015-04-15 00:00:00",
+            "endDate": "2015-04-22 00:00:00",
+            "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
+          },
+          {
+            "startDate": "2015-05-28 00:00:00",
+            "endDate": "2015-06-15 00:00:00",
+            "purpose": "Casual trip to a friend wedding."
+          },
+          {
+            "startDate": "2016-06-04 00:00:00",
+            "endDate": "2016-07-23 00:00:00",
+            "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
+          }
+        ],
+        "The United Kingdom of Great Britain and Northern Ireland": [
+          {
+            "startDate": "2014-12-24 00:00:00",
+            "endDate": "2015-01-14 00:00:00",
+            "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
+          },
+          {
+            "startDate": "2015-04-17 00:00:00",
+            "endDate": "2015-04-26 00:00:00",
+            "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
+          }
+        ]
       }
     },
     "phone": "302582514",
@@ -913,41 +1067,52 @@
       "passportExpirationDate": "2021-04-17 00:00:00",
       "photo": [],
       "countriesVisited": {
-        "The People\u0027s Republic of China": [{
-          "startDate": "2016-02-02 00:00:00",
-          "endDate": "2016-02-15 00:00:00",
-          "purpose": "Business trip at a forum."
-        }, {
-          "startDate": "2017-04-01 00:00:00",
-          "endDate": "2017-04-016 00:00:00",
-          "purpose": "Travel to receive a chirurgical operation."
-        }, {
-          "startDate": "2019-05-02 00:00:00",
-          "endDate": "2019-05-15 00:00:00",
-          "purpose": "Travel to buy new machinery for the company."
-        }],
-        "The Republic of Chad": [{
-          "startDate": "2015-04-15 00:00:00",
-          "endDate": "2015-04-22 00:00:00",
-          "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
-        }, {
-          "startDate": "2015-05-28 00:00:00",
-          "endDate": "2015-06-15 00:00:00",
-          "purpose": "Casual trip to a friend wedding."
-        }, {
-          "startDate": "2016-06-04 00:00:00",
-          "endDate": "2016-07-23 00:00:00",
-          "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
-        }],
-        "The United Kingdom of Great Britain and Northern Ireland": [{
-          "startDate": "2014-12-24 00:00:00",
-          "endDate": "2015-01-14 00:00:00",
-          "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
-        }, {
-          "startDate": "2015-04-17 00:00:00",
-          "endDate": "2015-04-26 00:00:00",
-          "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
-        }]
+        "The People\u0027s Republic of China": [
+          {
+            "startDate": "2016-02-02 00:00:00",
+            "endDate": "2016-02-15 00:00:00",
+            "purpose": "Business trip at a forum."
+          },
+          {
+            "startDate": "2017-04-01 00:00:00",
+            "endDate": "2017-04-016 00:00:00",
+            "purpose": "Travel to receive a chirurgical operation."
+          },
+          {
+            "startDate": "2019-05-02 00:00:00",
+            "endDate": "2019-05-15 00:00:00",
+            "purpose": "Travel to buy new machinery for the company."
+          }
+        ],
+        "The Republic of Chad": [
+          {
+            "startDate": "2015-04-15 00:00:00",
+            "endDate": "2015-04-22 00:00:00",
+            "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
+          },
+          {
+            "startDate": "2015-05-28 00:00:00",
+            "endDate": "2015-06-15 00:00:00",
+            "purpose": "Casual trip to a friend wedding."
+          },
+          {
+            "startDate": "2016-06-04 00:00:00",
+            "endDate": "2016-07-23 00:00:00",
+            "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
+          }
+        ],
+        "The United Kingdom of Great Britain and Northern Ireland": [
+          {
+            "startDate": "2014-12-24 00:00:00",
+            "endDate": "2015-01-14 00:00:00",
+            "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
+          },
+          {
+            "startDate": "2015-04-17 00:00:00",
+            "endDate": "2015-04-26 00:00:00",
+            "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
+          }
+        ]
       }
     },
     "phone": "7548547258",
@@ -977,41 +1142,52 @@
       "passportExpirationDate": "2021-04-17 00:00:00",
       "photo": [],
       "countriesVisited": {
-        "The People\u0027s Republic of China": [{
-          "startDate": "2016-02-02 00:00:00",
-          "endDate": "2016-02-15 00:00:00",
-          "purpose": "Business trip at a forum."
-        }, {
-          "startDate": "2017-04-01 00:00:00",
-          "endDate": "2017-04-016 00:00:00",
-          "purpose": "Travel to receive a chirurgical operation."
-        }, {
-          "startDate": "2019-05-02 00:00:00",
-          "endDate": "2019-05-15 00:00:00",
-          "purpose": "Travel to buy new machinery for the company."
-        }],
-        "The Republic of Chad": [{
-          "startDate": "2015-04-15 00:00:00",
-          "endDate": "2015-04-22 00:00:00",
-          "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
-        }, {
-          "startDate": "2015-05-28 00:00:00",
-          "endDate": "2015-06-15 00:00:00",
-          "purpose": "Casual trip to a friend wedding."
-        }, {
-          "startDate": "2016-06-04 00:00:00",
-          "endDate": "2016-07-23 00:00:00",
-          "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
-        }],
-        "The United Kingdom of Great Britain and Northern Ireland": [{
-          "startDate": "2014-12-24 00:00:00",
-          "endDate": "2015-01-14 00:00:00",
-          "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
-        }, {
-          "startDate": "2015-04-17 00:00:00",
-          "endDate": "2015-04-26 00:00:00",
-          "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
-        }]
+        "The People\u0027s Republic of China": [
+          {
+            "startDate": "2016-02-02 00:00:00",
+            "endDate": "2016-02-15 00:00:00",
+            "purpose": "Business trip at a forum."
+          },
+          {
+            "startDate": "2017-04-01 00:00:00",
+            "endDate": "2017-04-016 00:00:00",
+            "purpose": "Travel to receive a chirurgical operation."
+          },
+          {
+            "startDate": "2019-05-02 00:00:00",
+            "endDate": "2019-05-15 00:00:00",
+            "purpose": "Travel to buy new machinery for the company."
+          }
+        ],
+        "The Republic of Chad": [
+          {
+            "startDate": "2015-04-15 00:00:00",
+            "endDate": "2015-04-22 00:00:00",
+            "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
+          },
+          {
+            "startDate": "2015-05-28 00:00:00",
+            "endDate": "2015-06-15 00:00:00",
+            "purpose": "Casual trip to a friend wedding."
+          },
+          {
+            "startDate": "2016-06-04 00:00:00",
+            "endDate": "2016-07-23 00:00:00",
+            "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
+          }
+        ],
+        "The United Kingdom of Great Britain and Northern Ireland": [
+          {
+            "startDate": "2014-12-24 00:00:00",
+            "endDate": "2015-01-14 00:00:00",
+            "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
+          },
+          {
+            "startDate": "2015-04-17 00:00:00",
+            "endDate": "2015-04-26 00:00:00",
+            "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
+          }
+        ]
       }
     },
     "phone": "558231578",
@@ -1041,41 +1217,52 @@
       "passportExpirationDate": "2021-04-17 00:00:00",
       "photo": [],
       "countriesVisited": {
-        "The People\u0027s Republic of China": [{
-          "startDate": "2016-02-02 00:00:00",
-          "endDate": "2016-02-15 00:00:00",
-          "purpose": "Business trip at a forum."
-        }, {
-          "startDate": "2017-04-01 00:00:00",
-          "endDate": "2017-04-016 00:00:00",
-          "purpose": "Travel to receive a chirurgical operation."
-        }, {
-          "startDate": "2019-05-02 00:00:00",
-          "endDate": "2019-05-15 00:00:00",
-          "purpose": "Travel to buy new machinery for the company."
-        }],
-        "The Republic of Chad": [{
-          "startDate": "2015-04-15 00:00:00",
-          "endDate": "2015-04-22 00:00:00",
-          "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
-        }, {
-          "startDate": "2015-05-28 00:00:00",
-          "endDate": "2015-06-15 00:00:00",
-          "purpose": "Casual trip to a friend wedding."
-        }, {
-          "startDate": "2016-06-04 00:00:00",
-          "endDate": "2016-07-23 00:00:00",
-          "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
-        }],
-        "The United Kingdom of Great Britain and Northern Ireland": [{
-          "startDate": "2014-12-24 00:00:00",
-          "endDate": "2015-01-14 00:00:00",
-          "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
-        }, {
-          "startDate": "2015-04-17 00:00:00",
-          "endDate": "2015-04-26 00:00:00",
-          "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
-        }]
+        "The People\u0027s Republic of China": [
+          {
+            "startDate": "2016-02-02 00:00:00",
+            "endDate": "2016-02-15 00:00:00",
+            "purpose": "Business trip at a forum."
+          },
+          {
+            "startDate": "2017-04-01 00:00:00",
+            "endDate": "2017-04-016 00:00:00",
+            "purpose": "Travel to receive a chirurgical operation."
+          },
+          {
+            "startDate": "2019-05-02 00:00:00",
+            "endDate": "2019-05-15 00:00:00",
+            "purpose": "Travel to buy new machinery for the company."
+          }
+        ],
+        "The Republic of Chad": [
+          {
+            "startDate": "2015-04-15 00:00:00",
+            "endDate": "2015-04-22 00:00:00",
+            "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
+          },
+          {
+            "startDate": "2015-05-28 00:00:00",
+            "endDate": "2015-06-15 00:00:00",
+            "purpose": "Casual trip to a friend wedding."
+          },
+          {
+            "startDate": "2016-06-04 00:00:00",
+            "endDate": "2016-07-23 00:00:00",
+            "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
+          }
+        ],
+        "The United Kingdom of Great Britain and Northern Ireland": [
+          {
+            "startDate": "2014-12-24 00:00:00",
+            "endDate": "2015-01-14 00:00:00",
+            "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
+          },
+          {
+            "startDate": "2015-04-17 00:00:00",
+            "endDate": "2015-04-26 00:00:00",
+            "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
+          }
+        ]
       }
     },
     "phone": "9853254485",
@@ -1105,41 +1292,52 @@
       "passportExpirationDate": "2022-05-17 00:00:00",
       "photo": [],
       "countriesVisited": {
-        "The People\u0027s Republic of China": [{
-          "startDate": "2016-02-02 00:00:00",
-          "endDate": "2016-02-15 00:00:00",
-          "purpose": "Business trip at a forum."
-        }, {
-          "startDate": "2017-04-01 00:00:00",
-          "endDate": "2017-04-016 00:00:00",
-          "purpose": "Travel to receive a chirurgical operation."
-        }, {
-          "startDate": "2019-05-02 00:00:00",
-          "endDate": "2019-05-15 00:00:00",
-          "purpose": "Travel to buy new machinery for the company."
-        }],
-        "The Republic of Chad": [{
-          "startDate": "2015-04-15 00:00:00",
-          "endDate": "2015-04-22 00:00:00",
-          "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
-        }, {
-          "startDate": "2015-05-28 00:00:00",
-          "endDate": "2015-06-15 00:00:00",
-          "purpose": "Casual trip to a friend wedding."
-        }, {
-          "startDate": "2016-06-04 00:00:00",
-          "endDate": "2016-07-23 00:00:00",
-          "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
-        }],
-        "The United Kingdom of Great Britain and Northern Ireland": [{
-          "startDate": "2014-12-24 00:00:00",
-          "endDate": "2015-01-14 00:00:00",
-          "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
-        }, {
-          "startDate": "2015-04-17 00:00:00",
-          "endDate": "2015-04-26 00:00:00",
-          "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
-        }]
+        "The People\u0027s Republic of China": [
+          {
+            "startDate": "2016-02-02 00:00:00",
+            "endDate": "2016-02-15 00:00:00",
+            "purpose": "Business trip at a forum."
+          },
+          {
+            "startDate": "2017-04-01 00:00:00",
+            "endDate": "2017-04-016 00:00:00",
+            "purpose": "Travel to receive a chirurgical operation."
+          },
+          {
+            "startDate": "2019-05-02 00:00:00",
+            "endDate": "2019-05-15 00:00:00",
+            "purpose": "Travel to buy new machinery for the company."
+          }
+        ],
+        "The Republic of Chad": [
+          {
+            "startDate": "2015-04-15 00:00:00",
+            "endDate": "2015-04-22 00:00:00",
+            "purpose": "Business trip as consultant to \u0027EchoTech LLC\u0027."
+          },
+          {
+            "startDate": "2015-05-28 00:00:00",
+            "endDate": "2015-06-15 00:00:00",
+            "purpose": "Casual trip to a friend wedding."
+          },
+          {
+            "startDate": "2016-06-04 00:00:00",
+            "endDate": "2016-07-23 00:00:00",
+            "purpose": "Vacation trip to visit Chad\u0027s wild landscapes."
+          }
+        ],
+        "The United Kingdom of Great Britain and Northern Ireland": [
+          {
+            "startDate": "2014-12-24 00:00:00",
+            "endDate": "2015-01-14 00:00:00",
+            "purpose": "Business trip to HQ of company \u0027RamCo Ltd\u0027."
+          },
+          {
+            "startDate": "2015-04-17 00:00:00",
+            "endDate": "2015-04-26 00:00:00",
+            "purpose": "Business trip to finilize agreement with \u0027RamCo Ltd\u0027."
+          }
+        ]
       }
     },
     "phone": "9853254485",

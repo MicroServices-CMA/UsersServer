@@ -1,16 +1,34 @@
 package usersMicroService.classes;
 
 import java.util.Date;
-import java.lang.String;
 
+/**
+ * Defines the base structure for <code>Visit</code> entities.
+ *
+ * @author Ханк
+ */
 public class Visit {
+
     private Date startDate;
     private Date endDate;
     private String purpose;
-    public Visit(Date _startDate, Date _endDate, String _purpose){
-        startDate = _startDate;
-        endDate = _endDate;
-        purpose = _purpose;
+
+    public Visit() {
+    }
+
+    public Visit(Date startDate, Date endDate, String purpose) {
+        this.startDate = startDate;
+        this.endDate = endDate;
+        this.purpose = purpose;
+    }
+
+    @Override
+    public String toString() {
+        return "Visit{" +
+                "startDate=" + startDate +
+                ", endDate=" + endDate +
+                ", purpose=" + purpose +
+                '}';
     }
 
     // Getters and Setters
@@ -39,13 +57,5 @@ public class Visit {
         this.purpose = purpose;
     }
 
-    @Override
-    public String toString() {
-        return "Visit{" +
-                "startDate=" + startDate +
-                ", endDate=" + endDate +
-                ", purpose=" + purpose +
-                '}';
-    }
 }
 
