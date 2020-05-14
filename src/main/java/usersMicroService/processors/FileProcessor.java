@@ -1,4 +1,4 @@
-package usersMicroService.processings;
+package usersMicroService.processors;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -17,13 +17,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * This interface contains predefined methods used to perform clients load from and save to file/
- * @author Hank
- * @version 1.1
+ * Contains predefined methods used to perform clients load from and save to file/
  * For details about data Processing from/to file using Gson,
  * @see <a href="www.crunchify.com/how-to-read-json-object-from-file-in-java">this article</a>
+ *
+ * @author Ханк
+ * @version 1.1
  */
-public interface FileProcessing {
+public interface FileProcessor {
     /**
      * Loads <code>Client</code> objects from text file in JSON format and save into <code>Clients->peopleTable</code>
      *

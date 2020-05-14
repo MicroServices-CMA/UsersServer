@@ -8,7 +8,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import usersMicroService.Main;
-import usersMicroService.processings.FileProcessing;
+import usersMicroService.processors.FileProcessing;
 
 import javax.servlet.http.HttpServletResponse;
 

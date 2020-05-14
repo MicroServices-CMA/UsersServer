@@ -3,7 +3,7 @@ package usersMicroService.models;
 import usersMicroService.structures.Client;
 
 /**
- * Is the project standard answer format.
+ * This is the server standard answer format.
  *
  * @author Ханк
  * @version 1.0

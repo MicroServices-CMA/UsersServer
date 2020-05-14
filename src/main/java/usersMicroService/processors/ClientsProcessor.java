@@ -1,4 +1,4 @@
-package usersMicroService.processings;
+package usersMicroService.processors;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -19,15 +19,15 @@ import static usersMicroService.handlers.UsersServlet.usersLog;
 
 
 /**
- * This interface contains different predefined methods used to perform <code>Client</code> adding and searching.
+ * Contains different predefined methods used to perform <code>Client</code> adding and searching.
  *
- * @author Hank
+ * @author Ханк
  * @version 2.1
  */
-public interface ClientsProcessing extends ResponseProcessing {
+public interface ClientsProcessor extends ResponseProcessor {
 
     /**
-     * initiate the client search and proceed into writing the data into a JSON object and write it in <code>response</code>.
+     * Initiate the client search and proceed into writing the data into a JSON object and write it in <code>response</code>.
      *
      * @param request the request to be analysed;
      * @param response the response object that'll be sent back;

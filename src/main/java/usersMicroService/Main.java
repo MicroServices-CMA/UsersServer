@@ -7,7 +7,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import usersMicroService.handlers.HeartbeatServlet;
 import usersMicroService.handlers.UsersServlet;
-import usersMicroService.processings.FileProcessing;
+import usersMicroService.processors.FileProcessor;
 import usersMicroService.utils.Common;
 import usersMicroService.utils.PropertyManager;
 
@@ -24,13 +24,13 @@ public class Main {
     public static void main(String[] args) throws Exception {
         PropertyManager.load();
         Common.configure();
-        FileProcessing.loadFromJsonFile();
+        FileProcessor.loadFromJsonFile();
         runServer();
         Runtime.getRuntime().addShutdownHook(new Thread(new Runnable() {
             @Override
             public void run() {
                 try {
-                    FileProcessing.save2JsonFile();
+                    FileProcessor.save2JsonFile();
                 } catch (Exception e) {
                     log.error("Error: ", e);
                 }
