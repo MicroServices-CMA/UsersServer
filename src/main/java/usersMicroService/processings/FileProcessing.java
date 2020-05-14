@@ -18,14 +18,17 @@ import java.util.Map;
 
 /**
  * This interface contains predefined methods used to perform clients load from and save to file/
- * @author Ханк
+ * @author Hank
  * @version 1.1
  * For details about data Processing from/to file using Gson,
  * @see <a href="www.crunchify.com/how-to-read-json-object-from-file-in-java">this article</a>
  */
 public interface FileProcessing {
-
-    /** Loads <code>Client</code> objects from text file in JSON format and save into <code>Clients->peopleTable</code> */
+    /**
+     * Loads <code>Client</code> objects from text file in JSON format and save into <code>Clients->peopleTable</code>
+     *
+     * @return void
+     */
     static void loadFromJsonFile() throws Exception {
         try {
             System.out.println("Loading Clients from JSON file...");
@@ -44,8 +47,11 @@ public interface FileProcessing {
             throw new Exception(ex.getMessage());
         }
     }
-
-    /** Save <code>Client</code> objects from <code>Clients->peopleTable</code> to text file in JSON format. */
+    /**
+     * Save <code>Client</code> objects from <code>Clients->peopleTable</code> to text file in JSON format.
+     *
+     * @return void
+     */
     static void save2JsonFile() throws Exception {
         try {
             System.out.println("Saving Clients to JSON file...");

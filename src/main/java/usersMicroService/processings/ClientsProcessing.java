@@ -21,7 +21,7 @@ import static usersMicroService.handlers.UsersServlet.usersLog;
 /**
  * This interface contains different predefined methods used to perform <code>Client</code> adding and searching.
  *
- * @author Ханк
+ * @author Hank
  * @version 2.1
  */
 public interface ClientsProcessing extends ResponseProcessing {
@@ -29,7 +29,7 @@ public interface ClientsProcessing extends ResponseProcessing {
     /**
      * initiate the client search and proceed into writing the data into a JSON object and write it in <code>response</code>.
      *
-     * @param request  the request to be analysed;
+     * @param request the request to be analysed;
      * @param response the response object that'll be sent back;
      * @return void
      */
@@ -83,12 +83,12 @@ public interface ClientsProcessing extends ResponseProcessing {
     /**
      * Evolve into the real process of searching for a client using many filters;
      *
-     * @param response       a link to the response object;
-     * @param surname        the Client surname;
-     * @param name           ths client's name;
+     * @param response a link to the response object;
+     * @param surname the Client surname;
+     * @param name ths client's name;
      * @param passportSerial the client's passport serial number;
-     * @param email          the client email;
-     * @param country        the client country
+     * @param email the client email;
+     * @param country the client country
      * @return void
      */
     default void search(HttpServletResponse response, String surname, String name, String passportSerial, String email,
@@ -117,7 +117,7 @@ public interface ClientsProcessing extends ResponseProcessing {
     /**
      * Add a client into the database.
      *
-     * @param req  the HttpServletRequest object;
+     * @param req the HttpServletRequest object;
      * @param resp the HttpServletResponse object;
      * @return void
      */
@@ -130,7 +130,8 @@ public interface ClientsProcessing extends ResponseProcessing {
                             "Empty request body", null));
                     System.out.println("Empty request body!");
                     usersLog.error("Empty request body!");
-                } else {
+                }
+                else {
                     Client c = Common.getPrettyGson().fromJson(reqStr, Client.class);
                     Clients.getPeopleTable().put(c.getClientId(), c);
                     setRespParam(resp, HttpServletResponse.SC_OK, new Answer("OK",

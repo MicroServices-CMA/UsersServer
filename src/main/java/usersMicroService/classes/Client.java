@@ -8,22 +8,19 @@ import java.util.Objects;
 /**
  * Defines the base structure for <code>Client</code> entities.
  *
- * @author Ханк
+ * @author Hank
  * @version 1.0
  */
 public class Client implements Comparable<Client>, Serializable, Cloneable {
 
     private static int incrementClient;
-
-    static {
-        incrementClient = Clients.getPeopleTable().size();
-    }
-
     private String clientId;
     private Passport passport;
     private String phone;
     private String email;
     private PhysicalAddress address;
+
+    static  {incrementClient = Clients.getPeopleTable().size();}
 
     public Client() {
         incrementClient++;
@@ -53,7 +50,7 @@ public class Client implements Comparable<Client>, Serializable, Cloneable {
 
     @Override
     public int compareTo(Client o) {
-        return (clientId.equals(o.clientId)) ? 0 : 1;
+        return (clientId.equals(o.clientId))? 0 : 1;
     }
 
     @Override

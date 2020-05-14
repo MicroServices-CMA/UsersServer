@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * it's used to receive requests from external sources trying to identify it's state.
  *
- * @author Ксения, Ханк
+ * @author Ksenia, Hank
  * @version 1.0
  */
 public class HeartbeatServlet extends HttpServlet implements ResponseProcessing {

@@ -9,6 +9,7 @@ import java.util.*;
 /**
  * The <code>Passport</code> class is a simplified representation of a real passport.
  *  it defines the base structure for <code>Passport</code> entities.
+ *
  *  * @author Hank
  *  * @version 2.1
  */

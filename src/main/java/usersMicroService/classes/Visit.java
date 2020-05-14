@@ -5,7 +5,7 @@ import java.util.Date;
 /**
  * Defines the base structure for <code>Visit</code> entities.
  *
- * @author Ханк
+ * @author Hank
  */
 public class Visit {
 
@@ -16,7 +16,7 @@ public class Visit {
     public Visit() {
     }
 
-    public Visit(Date startDate, Date endDate, String purpose) {
+    public Visit(Date startDate, Date endDate, String purpose){
         this.startDate = startDate;
         this.endDate = endDate;
         this.purpose = purpose;

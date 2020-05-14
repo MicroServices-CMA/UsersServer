@@ -20,10 +20,10 @@ public class AnswerTest {
     public void setStatus() throws ParseException {
         Country country = new Country("RU");
         PhysicalAddress address = new PhysicalAddress("Linin street", "Bryansk", "Bryansk obl", "12-1");
-        Date birthDate = new SimpleDateFormat("dd.MM.yyyy").parse("1.12.1990");
-        Date date1 = new SimpleDateFormat("dd.MM.yyyy").parse("12.12.2020");
-        Date date2 = new SimpleDateFormat("dd.MM.yyyy").parse("12.12.2029");
-        Passport passport = new Passport("Ivanov", "Ivan", birthDate, GenderEnum.Male, country, "111111", PassportCategoryEnum.Official, date1, date2, null, null);
+        Date birthDate = new SimpleDateFormat( "dd.MM.yyyy" ).parse( "1.12.1990" );
+        Date date1 = new SimpleDateFormat( "dd.MM.yyyy" ).parse( "12.12.2020" );
+        Date date2 = new SimpleDateFormat( "dd.MM.yyyy" ).parse( "12.12.2029" );
+        Passport passport = new Passport("Ivanov", "Ivan", birthDate,  GenderEnum.Male, country, "111111", PassportCategoryEnum.Official, date1, date2, null, null);
         Client client = new Client(passport, "666-666", "ivan@mail.ru", address);
         Answer answer = new Answer("OK", "The request was succesful", client);
         answer.setStatus("MOLOKO");
@@ -34,10 +34,10 @@ public class AnswerTest {
     public void setDetails() throws ParseException {
         Country country = new Country("RU");
         PhysicalAddress address = new PhysicalAddress("Linin street", "Bryansk", "Bryansk obl", "12-1");
-        Date birthDate = new SimpleDateFormat("dd.MM.yyyy").parse("1.12.1990");
-        Date date1 = new SimpleDateFormat("dd.MM.yyyy").parse("12.12.2020");
-        Date date2 = new SimpleDateFormat("dd.MM.yyyy").parse("12.12.2029");
-        Passport passport = new Passport("Ivanov", "Ivan", birthDate, GenderEnum.Male, country, "111111", PassportCategoryEnum.Official, date1, date2, null, null);
+        Date birthDate = new SimpleDateFormat( "dd.MM.yyyy" ).parse( "1.12.1990" );
+        Date date1 = new SimpleDateFormat( "dd.MM.yyyy" ).parse( "12.12.2020" );
+        Date date2 = new SimpleDateFormat( "dd.MM.yyyy" ).parse( "12.12.2029" );
+        Passport passport = new Passport("Ivanov", "Ivan", birthDate,  GenderEnum.Male, country, "111111", PassportCategoryEnum.Official, date1, date2, null, null);
         Client client = new Client(passport, "666-666", "ivan@mail.ru", address);
         Answer answer = new Answer("OK", "The request was succesful", client);
         answer.setDetails("The request was not succesful");
@@ -48,10 +48,10 @@ public class AnswerTest {
     public void setClient() throws ParseException {
         Country country = new Country("RU");
         PhysicalAddress address = new PhysicalAddress("Linin street", "Bryansk", "Bryansk obl", "12-1");
-        Date birthDate = new SimpleDateFormat("dd.MM.yyyy").parse("1.12.1990");
-        Date date1 = new SimpleDateFormat("dd.MM.yyyy").parse("12.12.2020");
-        Date date2 = new SimpleDateFormat("dd.MM.yyyy").parse("12.12.2029");
-        Passport passport = new Passport("Ivanov", "Ivan", birthDate, GenderEnum.Male, country, "111111", PassportCategoryEnum.Official, date1, date2, null, null);
+        Date birthDate = new SimpleDateFormat( "dd.MM.yyyy" ).parse( "1.12.1990" );
+        Date date1 = new SimpleDateFormat( "dd.MM.yyyy" ).parse( "12.12.2020" );
+        Date date2 = new SimpleDateFormat( "dd.MM.yyyy" ).parse( "12.12.2029" );
+        Passport passport = new Passport("Ivanov", "Ivan", birthDate,  GenderEnum.Male, country, "111111", PassportCategoryEnum.Official, date1, date2, null, null);
         Client client = new Client(passport, "666-666", "ivan@mail.ru", address);
         Answer answer = new Answer("OK", "The request was succesful", client);
         client.setEmail("ivanov@mail.ru");

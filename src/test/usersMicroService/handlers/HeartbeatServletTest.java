@@ -16,12 +16,14 @@ import static org.junit.Assert.*;
 public class HeartbeatServletTest {
 
     @Before
-    public void init() {
+    public void init()
+    {
         Main.runServer(7000, "/");
     }
 
     @Test
-    public void doGet() throws Exception {
+    public void doGet() throws Exception
+    {
         String url = "http://localhost:7000/heart";
         HttpClient client = HttpClientBuilder.create().build();
         HttpGet request = new HttpGet(url);
@@ -30,7 +32,8 @@ public class HeartbeatServletTest {
     }
 
     @After
-    public void entTest() {
+    public void entTest()
+    {
         Main.stopServer();
     }
 

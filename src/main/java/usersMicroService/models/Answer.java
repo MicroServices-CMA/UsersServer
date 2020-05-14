@@ -8,7 +8,8 @@ import usersMicroService.classes.Client;
  * @author Ханк
  * @version 1.0
  */
-public class Answer {
+public class Answer
+{
     private String status;
     private String details;
     private Client client;

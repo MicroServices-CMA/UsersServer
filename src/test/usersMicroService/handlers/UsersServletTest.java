@@ -17,7 +17,8 @@ import static org.junit.Assert.*;
 public class UsersServletTest {
 
     @Before
-    public void init() {
+    public void init()
+    {
         try {
             fileProcessor.loadFromJsonFile();
         } catch (Exception e) {
@@ -27,7 +28,8 @@ public class UsersServletTest {
     }
 
     @Test
-    public void doGetFound() throws Exception {
+    public void doGetFound() throws Exception
+    {
         String url = "http://localhost:7000/userData?clientId=3";
         HttpClient client = HttpClientBuilder.create().build();
         HttpGet request = new HttpGet(url);
@@ -36,7 +38,8 @@ public class UsersServletTest {
     }
 
     @Test
-    public void doGetNoFound() throws Exception {
+    public void doGetNoFound() throws Exception
+    {
         String url = "http://localhost:7000/userData?clientId=81";
         HttpClient client = HttpClientBuilder.create().build();
         HttpGet request = new HttpGet(url);
@@ -45,7 +48,8 @@ public class UsersServletTest {
     }
 
     @Test
-    public void doGetBadRequest() throws Exception {
+    public void doGetBadRequest() throws Exception
+    {
         String url = "http://localhost:7000/userData?client23Id=81";
         HttpClient client = HttpClientBuilder.create().build();
         HttpGet request = new HttpGet(url);
@@ -54,7 +58,8 @@ public class UsersServletTest {
     }
 
     @After
-    public void entTest() {
+    public void entTest()
+    {
         Main.stopServer();
     }
 }

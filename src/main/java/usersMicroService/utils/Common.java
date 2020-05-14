@@ -13,26 +13,27 @@ import java.io.FileInputStream;
 import java.util.*;
 
 
-public class Common {
-    public static final Integer A_MINUTE = 60;
-    public static final Integer A_HOUR = 60 * A_MINUTE;
-    public static final Integer A_DAY = 24 * A_HOUR;
+public class Common
+{
     private static final Logger log = LoggerFactory.getLogger(Common.class);
-    public static Integer A_WEEK = 7 * A_DAY;
-    public static Random random = new Random();
+    public static final Integer A_MINUTE = 60;
+    public static final Integer A_HOUR = 60*A_MINUTE;
+    public static final Integer A_DAY = 24*A_HOUR;
+    public static Integer A_WEEK = 7*A_DAY;
+
     private static GsonBuilder builder = new GsonBuilder();
     private static GsonBuilder prettyBuilder = new GsonBuilder();
-    private static Gson gsonUCC = builder.serializeNulls().create();
-    private static Gson prettyGson = prettyBuilder.create();
-
-    static {
+    static{
         builder.setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE);
         builder.setDateFormat("yyyy-MM-dd HH:mm:ss");
         prettyBuilder.setPrettyPrinting();
         prettyBuilder.setDateFormat("yyyy-MM-dd HH:mm:ss");
     }
+    private static Gson gsonUCC = builder.serializeNulls().create();
+    private static Gson prettyGson = prettyBuilder.create();
 
     /**
+     *
      * @return Gson object, names in upper camel case
      */
     public static Gson getGsonUCC() {
@@ -48,45 +49,45 @@ public class Common {
     }
 
     public static Integer currentTimeSec() {
-        return (int) (System.currentTimeMillis() / 1000);
+        return (int)(System.currentTimeMillis()/1000);
     }
 
-    public static <A, B> void addToMap(Map<A, Set<B>> map, A a, B b) {
+    public static <A, B> void addToMap(Map<A, Set<B>> map, A a, B b){
         Set<B> set = map.computeIfAbsent(a, k -> new HashSet<B>());
         set.add(b);
     }
 
-    public static <A, B> void addToMapList(Map<A, List<B>> map, A a, B b) {
+    public static <A, B> void addToMapList(Map<A, List<B>> map, A a, B b){
         List<B> list = map.computeIfAbsent(a, k -> new ArrayList<B>());
         list.add(b);
     }
 
+    public static Random random = new Random();
     public static int randonInRange(int t1, int t2) {
-        if (t2 < t1) {
+        if (t2<t1) {
             throw new IllegalArgumentException();
         }
-        if (t1 == t2) {
+        if (t1==t2) {
             return t1;
         }
-        return t1 + random.nextInt(t2 - t1);
+        return t1 + random.nextInt(t2-t1);
     }
 
-    public static String join(Iterable<?> list, String delim) {
+    public static String join(Iterable<?> list, String delim){
         return Joiner.on(delim).skipNulls().join(list);
     }
 
-    public static List<String> split(String input, String pattern) {
-        return Splitter.onPattern(pattern) //"[.|,]"
+    public static List<String> split(String input, String pattern){
+        return    Splitter.onPattern(pattern) //"[.|,]"
                 .omitEmptyStrings()
                 .splitToList(input);
     }
-
-    public static <T> T castOrNull(Object wut) {
+    public static <T> T castOrNull(Object wut){
         T out = null;
 
-        if (wut != null) {
+        if(wut != null){
             try {
-                out = (T) wut;
+                out = (T)wut;
             } catch (Throwable t) {
                 log.error("Cant cast object", t);
             }
@@ -101,7 +102,7 @@ public class Common {
             String f = PropertyManager.propsPath;
             Properties p = new Properties();
             p.load(new FileInputStream(f));
-            for (String name : p.stringPropertyNames()) {
+            for(String name: p.stringPropertyNames()){
                 System.setProperty(name, p.getProperty(name));
                 // Sets the system property indicated by the specified key.
                 // First, if a security manager exists, its SecurityManager.checkPermission method is called

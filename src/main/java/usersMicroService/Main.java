@@ -39,7 +39,8 @@ public class Main {
         }, "Stop Jetty Hook"));
     }
 
-    public static void runServer(int port, String contextStr) {
+    public static void runServer(int port, String contextStr)
+    {
         server = new Server(port);
 
         ServletContextHandler context = new ServletContextHandler(ServletContextHandler.SESSIONS);
@@ -51,11 +52,12 @@ public class Main {
 
         handler.addServletWithMapping(UsersServlet.class, "/userData");
         handler.addServletWithMapping(HeartbeatServlet.class, "/heart");
-        try {
+        try
+        {
             server.start();
             log.info("Server has started at port: " + port);
             System.out.println("Server has started at port: " + port);
-        } catch (Throwable t) {
+        }catch(Throwable t){
             log.error("Error while starting server.", t);
         }
     }
@@ -69,7 +71,7 @@ public class Main {
 
     public static void stopServer() {
         try {
-            if (server.isRunning()) {
+            if(server.isRunning()){
                 server.stop();
             }
         } catch (Exception e) {

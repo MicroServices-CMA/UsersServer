@@ -3,7 +3,7 @@ package usersMicroService.classes;
 /**
  * Defines a mailing address.
  *
- * @author Ханк
+ * @author Hank
  * @version 1.0
  */
 public class PhysicalAddress {
