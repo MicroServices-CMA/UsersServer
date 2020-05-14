@@ -2,7 +2,7 @@ package usersMicroService.processings;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
-import usersMicroService.classes.Client;
+import usersMicroService.structures.Client;
 import usersMicroService.models.Answer;
 import usersMicroService.models.Clients;
 import usersMicroService.utils.Common;

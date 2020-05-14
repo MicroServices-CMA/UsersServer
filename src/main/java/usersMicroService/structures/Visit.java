@@ -1,4 +1,4 @@
-package usersMicroService.classes;
+package usersMicroService.structures;
 
 import java.util.Date;
 

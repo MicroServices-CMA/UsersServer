@@ -1,10 +1,10 @@
 package usersMicroService.models;
 
 import org.junit.Test;
-import usersMicroService.classes.Client;
-import usersMicroService.classes.Country;
-import usersMicroService.classes.Passport;
-import usersMicroService.classes.PhysicalAddress;
+import usersMicroService.structures.Client;
+import usersMicroService.structures.Country;
+import usersMicroService.structures.Passport;
+import usersMicroService.structures.PhysicalAddress;
 import usersMicroService.enumerators.GenderEnum;
 import usersMicroService.enumerators.PassportCategoryEnum;
 

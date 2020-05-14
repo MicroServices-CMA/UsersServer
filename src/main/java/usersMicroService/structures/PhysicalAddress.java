@@ -1,4 +1,4 @@
-package usersMicroService.classes;
+package usersMicroService.structures;
 
 /**
  * Defines a mailing address.

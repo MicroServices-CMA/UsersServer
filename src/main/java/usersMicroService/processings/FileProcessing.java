@@ -3,7 +3,7 @@ package usersMicroService.processings;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import usersMicroService.Main;
-import usersMicroService.classes.Client;
+import usersMicroService.structures.Client;
 import usersMicroService.models.Clients;
 import usersMicroService.utils.Common;
 import usersMicroService.utils.PropertyManager;

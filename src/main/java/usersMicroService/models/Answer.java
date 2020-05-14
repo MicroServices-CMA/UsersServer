@@ -1,6 +1,6 @@
 package usersMicroService.models;
 
-import usersMicroService.classes.Client;
+import usersMicroService.structures.Client;
 
 /**
  * Is the project standard answer format.
