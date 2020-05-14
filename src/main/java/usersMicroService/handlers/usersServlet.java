@@ -14,7 +14,7 @@ import java.io.IOException;
 /**
  * Is the servlet used to receive, transform and send back different requests and answers.
  *
- * @author Ханк
+ * @author hankd
  * @version 1.4
  */
 public class UsersServlet extends HttpServlet implements ResponseProcessing, ClientsProcessing {
@@ -28,7 +28,7 @@ public class UsersServlet extends HttpServlet implements ResponseProcessing, Cli
             addClient(req, resp);
             FileProcessing.save2JsonFile();
         } catch (Exception ex) {
-            usersLog.error("Error in doPost method execution. Msg: ", ex);
+            usersLog.error("Error in doPost method execution. Msg: ",ex);
         }
     }
 
@@ -36,7 +36,7 @@ public class UsersServlet extends HttpServlet implements ResponseProcessing, Cli
         try {
             searchClient(request, response);
         } catch (IOException ex) {
-            usersLog.error("Error in doGet method execution. Msg: ", ex);
+            usersLog.error("Error in doGet method execution. Msg: ",ex);
         }
 
     }
