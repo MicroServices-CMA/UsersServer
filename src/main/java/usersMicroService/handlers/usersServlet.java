@@ -17,7 +17,7 @@ import java.io.IOException;
  * @author hankd
  * @version 1.4
  */
-public class UsersServlet extends HttpServlet implements ResponseProcessing, ClientsProcessing {
+class UsersServlet extends HttpServlet implements ResponseProcessing, ClientsProcessing {
     public static Logger usersLog = LoggerFactory.getLogger(UsersServlet.class.getSimpleName());
 
     public UsersServlet() {
