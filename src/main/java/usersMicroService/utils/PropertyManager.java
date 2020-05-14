@@ -11,10 +11,6 @@ import java.util.Properties;
 // The Properties can be saved to a stream or loaded from a stream.
 // Each key and its corresponding value in the property list is a string.
 
-/**
- *
- * @author hankd
- */
 public class PropertyManager
 {
     private static Logger log = LoggerFactory.getLogger(PropertyManager.class.getSimpleName());

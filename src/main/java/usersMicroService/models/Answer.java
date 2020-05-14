@@ -2,11 +2,20 @@ package usersMicroService.models;
 
 import usersMicroService.classes.Client;
 
+/**
+ * Is the project standard answer format.
+ *
+ * @author Ханк
+ * @version 1.0
+ */
 public class Answer
 {
     private String status;
     private String details;
     private Client client;
+
+    public Answer() {
+    }
 
     public Answer(String status, String details, Client client) {
         this.status = status;

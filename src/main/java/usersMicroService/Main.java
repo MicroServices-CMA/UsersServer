@@ -1,15 +1,15 @@
 package usersMicroService;
 
-import usersMicroService.handlers.HeartbeatServlet;
-import usersMicroService.handlers.UsersServlet;
-import usersMicroService.processes.FileProcessing;
-import usersMicroService.utils.Common;
-import usersMicroService.utils.PropertyManager;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import usersMicroService.handlers.HeartbeatServlet;
+import usersMicroService.handlers.UsersServlet;
+import usersMicroService.processings.FileProcessing;
+import usersMicroService.utils.Common;
+import usersMicroService.utils.PropertyManager;
 
 import java.io.FileWriter;
 

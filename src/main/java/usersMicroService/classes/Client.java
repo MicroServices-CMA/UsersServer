@@ -5,10 +5,15 @@ import usersMicroService.models.Clients;
 import java.io.Serializable;
 import java.util.Objects;
 
-public class Client implements Comparable<Client>, Serializable, Cloneable
-{
-    private static int incrementClient;
+/**
+ * Defines the base structure for <code>Client</code> entities.
+ *
+ * @author Hank
+ * @version 1.0
+ */
+public class Client implements Comparable<Client>, Serializable, Cloneable {
 
+    private static int incrementClient;
     private String clientId;
     private Passport passport;
     private String phone;
@@ -31,9 +36,6 @@ public class Client implements Comparable<Client>, Serializable, Cloneable
         incrementClient++;
         this.clientId = String.valueOf(incrementClient);
     }
-
-
-    // Overriding complementary method(s)
 
     @Override
     public String toString() {
@@ -68,7 +70,6 @@ public class Client implements Comparable<Client>, Serializable, Cloneable
     public int hashCode() {
         return Objects.hash(clientId, passport, phone, email, address);
     }
-
 
     // Getters and Setters
 

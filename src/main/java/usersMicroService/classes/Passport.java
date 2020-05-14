@@ -5,8 +5,13 @@ import usersMicroService.enumerators.PassportCategoryEnum;
 
 import java.util.*;
 
+
 /**
  * The <code>Passport</code> class is a simplified representation of a real passport.
+ *  it defines the base structure for <code>Passport</code> entities.
+ *
+ *  * @author Hank
+ *  * @version 2.1
  */
 public class Passport {
 
@@ -59,21 +64,15 @@ public class Passport {
 
     /** Insert a <code>Country</code> visit for a specific <code>Passport</code>. */
     public void addVisit(String countryName, Date startDate, Date endDate, String purpose) {
-        if (!countriesVisited.containsKey(countryName)) {
-            ArrayList<Visit> visits = new ArrayList<>();
-            visits.add(new Visit(startDate, endDate, purpose));
-            countriesVisited.put(countryName, visits);
-        }
-        else{
-            ArrayList<Visit> visits = countriesVisited.get(countryName);
-            visits.add(new Visit(startDate, endDate, purpose));
-            countriesVisited.put(countryName, visits);
-        }
+        ArrayList<Visit> visits = !countriesVisited.containsKey(countryName) ? new ArrayList<>() :
+                countriesVisited.get(countryName);
+        visits.add(new Visit(startDate, endDate, purpose));
+        countriesVisited.put(countryName, visits);
     }
 
     /** Return the number of times this passport's owner has visited the specified country. */
-    public short nbrOfVisits(String c) {
-        return ((short) countriesVisited.get(c).size());
+    public int nbrOfVisits(String c) {
+        return (countriesVisited.get(c).size());
     }
 
     /**
@@ -201,9 +200,7 @@ public class Passport {
         this.passportIssueDate = passportIssueDate;
     }
 
-    public Date getPassportExpirationDate() {
-        return passportExpirationDate;
-    }
+    public Date getPassportExpirationDate() { return passportExpirationDate; }
 
     public void setPassportExpirationDate(Date passportExpirationDate) {
         this.passportExpirationDate = passportExpirationDate;

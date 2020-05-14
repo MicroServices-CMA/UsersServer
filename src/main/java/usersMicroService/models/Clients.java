@@ -6,7 +6,14 @@ import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * the static class <code>Clients</code> act as an abstract container to store the <code>peopleMap</code>.
+ *
+ * @author Ханк
+ * @version 1.1
+ */
 public class Clients implements Serializable {
+
     private static Map<String, Client> peopleTable = new HashMap<>();
 
     private Clients(){

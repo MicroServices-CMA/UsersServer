@@ -4,23 +4,32 @@ import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
 
+/**
+ * Defines the base structure for <code>Country</code> entities.
+ * @author Hank
+ * @version 1.0
+ */
 public class Country implements Comparable<Country> {
 
     static private Map<String, Country> countries = new HashMap<>();
 
-    private String iso; /** 2-letter country code defined in <i> ISO-3166 <i> */
+    private String iso; /** 2-letter country code defined in */
     private String code;
     private String name;
 
     public Country(){
-        iso = "";
-        code = "";
-        name = "";
     }
 
+    /**
+     * The constructor to create new objects <code>Country</code> using an iso code
+     *
+     * @param iso the iso code identifying a country following standard <i> ISO-3166 <i>
+     * @author hankd
+     */
     public Country(String iso) {
         Country c = countries.getOrDefault(iso, new Country(){
-            {this.setIso("RU");
+            {
+                this.setIso("RU");
                 this.setCode("643");
                 this.setName("The Russian Federation");
             }

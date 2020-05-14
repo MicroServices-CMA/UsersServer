@@ -1,8 +1,6 @@
 package usersMicroService.models;
 
-import org.junit.Before;
 import org.junit.Test;
-import usersMicroService.Main;
 import usersMicroService.classes.Client;
 import usersMicroService.classes.Country;
 import usersMicroService.classes.Passport;

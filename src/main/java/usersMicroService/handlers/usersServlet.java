@@ -1,41 +1,42 @@
 package usersMicroService.handlers;
 
-import java.io.IOException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import usersMicroService.processings.ClientsProcessing;
+import usersMicroService.processings.FileProcessing;
+import usersMicroService.processings.ResponseProcessing;
+
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import usersMicroService.processes.ClientsProcessing;
-import usersMicroService.processes.FileProcessing;
-import usersMicroService.processes.ResponseProcessing;
+import java.io.IOException;
 
+/**
+ * Is the servlet used to receive, transform and send back different requests and answers.
+ *
+ * @author Ханк
+ * @version 1.4
+ */
 public class UsersServlet extends HttpServlet implements ResponseProcessing, ClientsProcessing {
-    private static Logger usersLog = LoggerFactory.getLogger(UsersServlet.class.getSimpleName());
+    public static Logger usersLog = LoggerFactory.getLogger(UsersServlet.class.getSimpleName());
 
     public UsersServlet() {
     }
 
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) {
         try {
-            this.addClient(req, resp);
-        } catch (IOException var5) {
-            var5.printStackTrace();
-        }
-
-        try {
+            addClient(req, resp);
             FileProcessing.save2JsonFile();
         } catch (Exception ex) {
-            ex.printStackTrace();
+            usersLog.error("Error in doPost method execution. Msg: ", ex);
         }
-
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) {
         try {
-            this.searchClient(request, response);
+            searchClient(request, response);
         } catch (IOException ex) {
-            ex.printStackTrace();
+            usersLog.error("Error in doGet method execution. Msg: ", ex);
         }
 
     }
