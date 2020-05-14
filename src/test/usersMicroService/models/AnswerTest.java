@@ -53,8 +53,8 @@ public class AnswerTest {
         Date date2 = new SimpleDateFormat( "dd.MM.yyyy" ).parse( "12.12.2029" );
         Passport passport = new Passport("Ivanov", "Ivan", birthDate,  GenderEnum.MALE, country, "111111", PassportCategoryEnum.OFFICIAL, date1, date2, null, null);
         Client client = new Client(passport, "666-666", "ivan@mail.ru", address);
-        Answer answer = new Answer("OK", "The request was succesful", client);
-        client.setEmail("ivanov@mail.ru");
+        Answer answer = new Answer("OK", "The request was succesful", null);
+        answer.setClient(client);
         org.junit.Assert.assertEquals(client, answer.getClient());
     }
 
