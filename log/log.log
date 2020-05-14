@@ -6689,3 +6689,510 @@ java.net.SocketException: Connection reset
 08:51:38,771 DEBUG AbstractEndPoint:onClose:108 - onClose SelectChannelEndPoint@5c9e0178{/127.0.0.1:56618<->7000,CLOSED,ISHUT,OSHUT,-,-,29341/30000,HttpConnection}{io=0,kio=-1,kro=-1}
 08:51:38,772 DEBUG AbstractConnection:next:275 - FILLING-->IDLE HttpConnection@2490faff[IDLE,SelectChannelEndPoint@339dd345{/127.0.0.1:56630<->7000,CLOSED,ISHUT,OSHUT,-,-,14296/30000,HttpConnection}{io=0,kio=-1,kro=-1}][p=HttpParser{s=CLOSED,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@16de88b1{r=1,c=false,a=IDLE,uri=}]
 08:51:38,772 DEBUG AbstractConnection:next:275 - FILLING-->IDLE HttpConnection@2c120d6[IDLE,SelectChannelEndPoint@5c9e0178{/127.0.0.1:56618<->7000,CLOSED,ISHUT,OSHUT,-,-,29342/30000,HttpConnection}{io=0,kio=-1,kro=-1}][p=HttpParser{s=CLOSED,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@3275b517{r=1,c=false,a=IDLE,uri=}]
+19:05:13,960 DEBUG log:initialized:176 - Logging to org.slf4j.impl.Log4jLoggerAdapter(org.eclipse.jetty.util.log) via org.eclipse.jetty.util.log.Slf4jLog
+19:05:14,003  INFO log:initialized:186 - Logging initialized @1015ms
+19:05:14,018 DEBUG ContainerLifeCycle:addBean:324 - org.eclipse.jetty.server.Server@2a742aa2 added {qtp2048834776{STOPPED,8<=0<=200,i=0,q=0},AUTO}
+19:05:14,057 DEBUG ContainerLifeCycle:addBean:324 - HttpConnectionFactory@4eb7f003{HTTP/1.1} added {HttpConfiguration@eafc191{32768/8192,8192/8192,https://:0,[]},POJO}
+19:05:14,063 DEBUG ContainerLifeCycle:addBean:324 - ServerConnector@4671e53b{null}{0.0.0.0:0} added {org.eclipse.jetty.server.Server@2a742aa2,UNMANAGED}
+19:05:14,064 DEBUG ContainerLifeCycle:addBean:324 - ServerConnector@4671e53b{null}{0.0.0.0:0} added {qtp2048834776{STOPPED,8<=0<=200,i=0,q=0},AUTO}
+19:05:14,064 DEBUG ContainerLifeCycle:addBean:324 - ServerConnector@4671e53b{null}{0.0.0.0:0} added {org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@491cc5c9,AUTO}
+19:05:14,065 DEBUG ContainerLifeCycle:addBean:324 - ServerConnector@4671e53b{null}{0.0.0.0:0} added {org.eclipse.jetty.io.ArrayByteBufferPool@2db7a79b,POJO}
+19:05:14,067 DEBUG ContainerLifeCycle:addBean:324 - ServerConnector@4671e53b{null}{0.0.0.0:0} added {HttpConnectionFactory@4eb7f003{HTTP/1.1},AUTO}
+19:05:14,071 DEBUG ContainerLifeCycle:addBean:324 - ServerConnector@4671e53b{HTTP/1.1}{0.0.0.0:0} added {org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@3ecd23d9,MANAGED}
+19:05:14,072 DEBUG ContainerLifeCycle:addBean:324 - org.eclipse.jetty.server.Server@2a742aa2 added {ServerConnector@4671e53b{HTTP/1.1}{0.0.0.0:7000},AUTO}
+19:05:14,113 DEBUG ContainerLifeCycle:addBean:324 - org.eclipse.jetty.server.session.SessionHandler@7e9a5fbe added {org.eclipse.jetty.server.session.HashSessionManager@44a3ec6b,AUTO}
+19:05:14,113 DEBUG ContainerLifeCycle:addBean:324 - o.e.j.s.ServletContextHandler@71623278{/,null,null} added {org.eclipse.jetty.server.session.SessionHandler@7e9a5fbe,AUTO}
+19:05:14,122 DEBUG ContainerLifeCycle:addBean:324 - org.eclipse.jetty.server.session.SessionHandler@7e9a5fbe added {org.eclipse.jetty.servlet.ServletHandler@5427c60c,AUTO}
+19:05:14,123 DEBUG ContainerLifeCycle:addBean:324 - org.eclipse.jetty.server.Server@2a742aa2 added {o.e.j.s.ServletContextHandler@71623278{/,null,null},AUTO}
+19:05:14,124 DEBUG ContainerLifeCycle:addBean:324 - org.eclipse.jetty.server.Server@2a742aa2 added {org.eclipse.jetty.servlet.ServletHandler@15bfd87,AUTO}
+19:05:14,137 DEBUG ContainerLifeCycle:addBean:324 - org.eclipse.jetty.servlet.ServletHandler@15bfd87 added {usersMicroService.handlers.UsersServlet-2bea5ab4@7bba92ca==usersMicroService.handlers.UsersServlet,-1,false,AUTO}
+19:05:14,138 DEBUG ContainerLifeCycle:addBean:324 - org.eclipse.jetty.servlet.ServletHandler@15bfd87 added {[/userData]=>usersMicroService.handlers.UsersServlet-2bea5ab4,POJO}
+19:05:14,140 DEBUG ContainerLifeCycle:addBean:324 - org.eclipse.jetty.servlet.ServletHandler@15bfd87 added {usersMicroService.handlers.HeartbeatServlet-58a90037@d980b193==usersMicroService.handlers.HeartbeatServlet,-1,false,AUTO}
+19:05:14,141 DEBUG ContainerLifeCycle:addBean:324 - org.eclipse.jetty.servlet.ServletHandler@15bfd87 added {[/heart]=>usersMicroService.handlers.HeartbeatServlet-58a90037,POJO}
+19:05:14,141 DEBUG AbstractLifeCycle:setStarting:185 - starting org.eclipse.jetty.server.Server@2a742aa2
+19:05:14,150  INFO Server:doStart:326 - jetty-9.2.30.v20200428
+19:05:14,178 DEBUG AbstractHandler:doStart:58 - starting org.eclipse.jetty.server.Server@2a742aa2
+19:05:14,179 DEBUG AbstractLifeCycle:setStarting:185 - starting qtp2048834776{STOPPED,8<=0<=200,i=0,q=0}
+19:05:14,182 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @1200ms qtp2048834776{STARTED,8<=8<=200,i=6,q=0}
+19:05:14,182 DEBUG AbstractLifeCycle:setStarting:185 - starting org.eclipse.jetty.servlet.ServletHandler@15bfd87
+19:05:14,185 DEBUG ServletHandler:updateMappings:1494 - Chose path=/userData mapped to servlet=usersMicroService.handlers.UsersServlet-2bea5ab4 from default=false
+19:05:14,186 DEBUG ServletHandler:updateMappings:1494 - Chose path=/heart mapped to servlet=usersMicroService.handlers.HeartbeatServlet-58a90037 from default=false
+19:05:14,187 DEBUG ServletHandler:updateMappings:1515 - filterNameMap={}
+19:05:14,187 DEBUG ServletHandler:updateMappings:1516 - pathFilters=null
+19:05:14,187 DEBUG ServletHandler:updateMappings:1517 - servletFilterMap=null
+19:05:14,188 DEBUG ServletHandler:updateMappings:1518 - servletPathMap={/userData=usersMicroService.handlers.UsersServlet-2bea5ab4@7bba92ca==usersMicroService.handlers.UsersServlet,-1,false, /heart=usersMicroService.handlers.HeartbeatServlet-58a90037@d980b193==usersMicroService.handlers.HeartbeatServlet,-1,false}
+19:05:14,189 DEBUG ServletHandler:updateMappings:1519 - servletNameMap={usersMicroService.handlers.UsersServlet-2bea5ab4=usersMicroService.handlers.UsersServlet-2bea5ab4@7bba92ca==usersMicroService.handlers.UsersServlet,-1,false, usersMicroService.handlers.HeartbeatServlet-58a90037=usersMicroService.handlers.HeartbeatServlet-58a90037@d980b193==usersMicroService.handlers.HeartbeatServlet,-1,false}
+19:05:14,189 DEBUG ServletHandler:doStart:164 - Adding Default404Servlet to org.eclipse.jetty.servlet.ServletHandler@15bfd87
+19:05:14,191 DEBUG ContainerLifeCycle:addBean:324 - org.eclipse.jetty.servlet.ServletHandler@15bfd87 added {org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-1c72da34@1515535f==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false,AUTO}
+19:05:14,192 DEBUG ContainerLifeCycle:addBean:324 - org.eclipse.jetty.servlet.ServletHandler@15bfd87 added {[/]=>org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-1c72da34,POJO}
+19:05:14,192 DEBUG ServletHandler:updateMappings:1494 - Chose path=/userData mapped to servlet=usersMicroService.handlers.UsersServlet-2bea5ab4 from default=false
+19:05:14,192 DEBUG ServletHandler:updateMappings:1494 - Chose path=/heart mapped to servlet=usersMicroService.handlers.HeartbeatServlet-58a90037 from default=false
+19:05:14,192 DEBUG ServletHandler:updateMappings:1494 - Chose path=/ mapped to servlet=org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-1c72da34 from default=false
+19:05:14,193 DEBUG ServletHandler:updateMappings:1515 - filterNameMap={}
+19:05:14,193 DEBUG ServletHandler:updateMappings:1516 - pathFilters=null
+19:05:14,193 DEBUG ServletHandler:updateMappings:1517 - servletFilterMap=null
+19:05:14,195 DEBUG ServletHandler:updateMappings:1518 - servletPathMap={/userData=usersMicroService.handlers.UsersServlet-2bea5ab4@7bba92ca==usersMicroService.handlers.UsersServlet,-1,false, /heart=usersMicroService.handlers.HeartbeatServlet-58a90037@d980b193==usersMicroService.handlers.HeartbeatServlet,-1,false, /=org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-1c72da34@1515535f==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false}
+19:05:14,196 DEBUG ServletHandler:updateMappings:1519 - servletNameMap={usersMicroService.handlers.UsersServlet-2bea5ab4=usersMicroService.handlers.UsersServlet-2bea5ab4@7bba92ca==usersMicroService.handlers.UsersServlet,-1,false, usersMicroService.handlers.HeartbeatServlet-58a90037=usersMicroService.handlers.HeartbeatServlet-58a90037@d980b193==usersMicroService.handlers.HeartbeatServlet,-1,false, org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-1c72da34=org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-1c72da34@1515535f==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false}
+19:05:14,197 DEBUG AbstractLifeCycle:setStarting:185 - starting org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-1c72da34@1515535f==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false
+19:05:14,210 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @1228ms org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-1c72da34@1515535f==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false
+19:05:14,210 DEBUG AbstractLifeCycle:setStarting:185 - starting usersMicroService.handlers.HeartbeatServlet-58a90037@d980b193==usersMicroService.handlers.HeartbeatServlet,-1,false
+19:05:14,211 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @1229ms usersMicroService.handlers.HeartbeatServlet-58a90037@d980b193==usersMicroService.handlers.HeartbeatServlet,-1,false
+19:05:14,211 DEBUG AbstractLifeCycle:setStarting:185 - starting usersMicroService.handlers.UsersServlet-2bea5ab4@7bba92ca==usersMicroService.handlers.UsersServlet,-1,false
+19:05:14,212 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @1230ms usersMicroService.handlers.UsersServlet-2bea5ab4@7bba92ca==usersMicroService.handlers.UsersServlet,-1,false
+19:05:14,213 DEBUG AbstractHandler:doStart:58 - starting org.eclipse.jetty.servlet.ServletHandler@15bfd87
+19:05:14,213 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @1231ms org.eclipse.jetty.servlet.ServletHandler@15bfd87
+19:05:14,213 DEBUG AbstractLifeCycle:setStarting:185 - starting ServerConnector@4671e53b{HTTP/1.1}{0.0.0.0:7000}
+19:05:14,228 DEBUG ContainerLifeCycle:addBean:324 - ServerConnector@4671e53b{HTTP/1.1}{0.0.0.0:7000} added {sun.nio.ch.ServerSocketChannelImpl[/0:0:0:0:0:0:0:0:7000],POJO}
+19:05:14,229 DEBUG AbstractLifeCycle:setStarting:185 - starting org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@491cc5c9
+19:05:14,232 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @1251ms org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@491cc5c9
+19:05:14,233 DEBUG AbstractLifeCycle:setStarting:185 - starting HttpConnectionFactory@4eb7f003{HTTP/1.1}
+19:05:14,234 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @1253ms HttpConnectionFactory@4eb7f003{HTTP/1.1}
+19:05:14,234 DEBUG AbstractLifeCycle:setStarting:185 - starting org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@3ecd23d9
+19:05:14,245 DEBUG AbstractLifeCycle:setStarting:185 - starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@51931956 keys=-1 selected=-1
+19:05:14,884 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @1901ms org.eclipse.jetty.io.SelectorManager$ManagedSelector@51931956 keys=0 selected=0
+19:05:14,884 DEBUG AbstractLifeCycle:setStarting:185 - starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@1a0dcaa keys=-1 selected=-1
+19:05:14,884 DEBUG SelectorManager:run:548 - Starting Thread[qtp2048834776-16-selector-ServerConnectorManager@3ecd23d9/0,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@51931956 keys=0 selected=0
+19:05:14,887 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @1905ms org.eclipse.jetty.io.SelectorManager$ManagedSelector@1a0dcaa keys=0 selected=0
+19:05:14,888 DEBUG AbstractLifeCycle:setStarting:185 - starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@3bd40a57 keys=-1 selected=-1
+19:05:14,888 DEBUG SelectorManager:run:548 - Starting Thread[qtp2048834776-21-selector-ServerConnectorManager@3ecd23d9/1,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@1a0dcaa keys=0 selected=0
+19:05:14,890 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @1908ms org.eclipse.jetty.io.SelectorManager$ManagedSelector@3bd40a57 keys=0 selected=0
+19:05:14,891 DEBUG AbstractLifeCycle:setStarting:185 - starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@fdefd3f keys=-1 selected=-1
+19:05:14,891 DEBUG SelectorManager:run:548 - Starting Thread[qtp2048834776-22-selector-ServerConnectorManager@3ecd23d9/2,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@3bd40a57 keys=0 selected=0
+19:05:14,892 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @1910ms org.eclipse.jetty.io.SelectorManager$ManagedSelector@fdefd3f keys=0 selected=0
+19:05:14,893 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @1911ms org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@3ecd23d9
+19:05:14,893 DEBUG SelectorManager:run:548 - Starting Thread[qtp2048834776-18-selector-ServerConnectorManager@3ecd23d9/3,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@fdefd3f keys=0 selected=0
+19:05:14,894 DEBUG SelectorManager:select:600 - Selector loop waiting on select
+19:05:14,894 DEBUG SelectorManager:select:600 - Selector loop waiting on select
+19:05:14,894 DEBUG SelectorManager:select:600 - Selector loop waiting on select
+19:05:14,894 DEBUG SelectorManager:select:600 - Selector loop waiting on select
+19:05:14,896 DEBUG ContainerLifeCycle:addBean:324 - ServerConnector@4671e53b{HTTP/1.1}{0.0.0.0:7000} added {acceptor-0@78047b92,POJO}
+19:05:14,896  INFO ServerConnector:doStart:266 - Started ServerConnector@4671e53b{HTTP/1.1}{0.0.0.0:7000}
+19:05:14,897 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @1915ms ServerConnector@4671e53b{HTTP/1.1}{0.0.0.0:7000}
+19:05:14,898  INFO Server:doStart:378 - Started @1916ms
+19:05:14,898 DEBUG AbstractLifeCycle:setStarted:177 - STARTED @1917ms org.eclipse.jetty.server.Server@2a742aa2
+19:05:14,899  INFO Main:runServer:58 - Server has started at port: 7000
+19:06:36,729 DEBUG SelectorManager:submit:481 - Queued change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Accept@4c39a9f4
+19:06:36,730 DEBUG SelectorManager:select:603 - Selector loop woken up from select, 0/0 selected
+19:06:36,731 DEBUG SelectorManager:runChange:526 - Running change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Accept@4c39a9f4
+19:06:36,754 DEBUG AbstractEndPoint:onOpen:99 - onOpen SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,7/30000,null}{io=0,kio=0,kro=0}
+19:06:36,755 DEBUG IdleTimeout:checkIdleTimeout:151 - SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,8/30000,null}{io=0,kio=0,kro=0} idle timeout check, elapsed: 8 ms, remaining: 29992 ms
+19:06:36,825 DEBUG HttpChannel:<init>:122 - new HttpChannelOverHttp@22afc33c{r=0,c=false,a=IDLE,uri=} -> SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,78/30000,null}{io=0,kio=0,kro=0},null,HttpChannelState@1dd388ec{s=IDLE i=true a=null}
+19:06:36,833 DEBUG HttpConnection:<init>:107 - New HTTP Connection HttpConnection@525a8939[IDLE,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,86/30000,null}{io=0,kio=0,kro=0}][p=HttpParser{s=START,0 of 0},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=0,c=false,a=IDLE,uri=}]
+19:06:36,835 DEBUG AbstractConnection:onOpen:200 - onOpen HttpConnection@525a8939[IDLE,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,88/30000,HttpConnection}{io=0,kio=0,kro=0}][p=HttpParser{s=START,0 of 0},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=0,c=false,a=IDLE,uri=}]
+19:06:36,836 DEBUG AbstractConnection:fillInterested:128 - fillInterested HttpConnection@525a8939[IDLE,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,89/30000,HttpConnection}{io=0,kio=0,kro=0}][p=HttpParser{s=START,0 of 0},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=0,c=false,a=IDLE,uri=}]
+19:06:36,838 DEBUG AbstractConnection:next:275 - IDLE-->FILL_INTERESTED HttpConnection@525a8939[FILL_INTERESTED,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,91/30000,HttpConnection}{io=0,kio=0,kro=0}][p=HttpParser{s=START,0 of 0},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=0,c=false,a=IDLE,uri=}]
+19:06:36,839 DEBUG SelectChannelEndPoint:updateLocalInterests:136 - Local interests updating 0 -> 1 for SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,0/30000,HttpConnection}{io=1,kio=0,kro=0}
+19:06:36,839 DEBUG SelectorManager:submit:481 - Queued change org.eclipse.jetty.io.SelectChannelEndPoint$1@5306d971
+19:06:36,840 DEBUG SelectorManager:createEndPoint:750 - Created SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,1/30000,HttpConnection}{io=1,kio=0,kro=0}
+19:06:36,840 DEBUG SelectorManager:runChange:526 - Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@5306d971
+19:06:36,841 DEBUG SelectChannelEndPoint:setKeyInterests:160 - Key interests updated 0 -> 1 on SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,2/30000,HttpConnection}{io=1,kio=1,kro=0}
+19:06:36,841 DEBUG SelectorManager:select:600 - Selector loop waiting on select
+19:06:36,841 DEBUG SelectorManager:select:603 - Selector loop woken up from select, 1/1 selected
+19:06:36,842 DEBUG SelectChannelEndPoint:setKeyInterests:160 - Key interests updated 1 -> 0 on SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,4/30000,HttpConnection}{io=1,kio=0,kro=1}
+19:06:36,843 DEBUG SelectChannelEndPoint:updateLocalInterests:136 - Local interests updating 1 -> 0 for SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,4/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:06:36,843 DEBUG SelectorManager:submit:481 - Queued change org.eclipse.jetty.io.SelectChannelEndPoint$1@5306d971
+19:06:36,845 DEBUG AbstractConnection:next:275 - FILL_INTERESTED-->FILLING HttpConnection@525a8939[FILLING,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,5/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of 0},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=0,c=false,a=IDLE,uri=}]
+19:06:36,845 DEBUG SelectorManager:runChange:526 - Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@5306d971
+19:06:36,845 DEBUG SelectorManager:select:600 - Selector loop waiting on select
+19:06:36,846 DEBUG HttpConnection:onFillable:208 - HttpConnection@525a8939[FILLING,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,7/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of 0},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=0,c=false,a=IDLE,uri=}] onFillable HttpChannelState@1dd388ec{s=IDLE i=true a=null}
+19:06:36,848 DEBUG ChannelEndPoint:fill:142 - filled 451 SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,9/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:06:36,852 DEBUG HttpParser:parseNext:1228 - parseNext s=START HeapByteBuffer@556a122c[p=0,l=451,c=16384,r=451]={<<<GET /userData?sur...l: no-cache\r\n\r\n>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+19:06:36,853 DEBUG HttpParser:setState:1590 - START --> SPACE1
+19:06:36,854 DEBUG HttpParser:setState:1590 - SPACE1 --> URI
+19:06:36,854 DEBUG HttpParser:setState:1590 - URI --> SPACE2
+19:06:36,854 DEBUG HttpParser:setState:1590 - SPACE2 --> REQUEST_VERSION
+19:06:36,855 DEBUG HttpParser:setState:1590 - REQUEST_VERSION --> HEADER
+19:06:36,855 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_VALUE
+19:06:36,855 DEBUG HttpParser:setState:1590 - HEADER_VALUE --> HEADER_IN_VALUE
+19:06:36,855 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:36,857 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_VALUE
+19:06:36,857 DEBUG HttpParser:setState:1590 - HEADER_VALUE --> HEADER_IN_VALUE
+19:06:36,858 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:36,858 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:36,858 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:36,858 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_VALUE
+19:06:36,858 DEBUG HttpParser:setState:1590 - HEADER_VALUE --> HEADER_IN_VALUE
+19:06:36,858 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:36,859 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:36,859 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:36,859 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:36,859 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:36,859 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_VALUE
+19:06:36,859 DEBUG HttpParser:setState:1590 - HEADER_VALUE --> HEADER_IN_VALUE
+19:06:36,859 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:36,860 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:36,860 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:36,860 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:36,860 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:36,862 DEBUG HttpParser:setState:1590 - HEADER --> END
+19:06:36,862 DEBUG HttpChannel:messageComplete:701 - HttpChannelOverHttp@22afc33c{r=1,c=false,a=IDLE,uri=/userData?surname=Sergei&name=Lavrov&passportSerial=094528&email=Lavrov@mail.ru&country=Russia} messageComplete
+19:06:36,863 DEBUG HttpInput:messageComplete:271 - HttpInputOverHTTP@4a0d320c EOF
+19:06:36,863 DEBUG HttpChannel:handle:271 - HttpChannelOverHttp@22afc33c{r=1,c=false,a=IDLE,uri=/userData?surname=Sergei&name=Lavrov&passportSerial=094528&email=Lavrov@mail.ru&country=Russia} handle enter
+19:06:36,864 DEBUG HttpChannelState:handling:173 - HttpChannelState@1dd388ec{s=IDLE i=true a=null} handling IDLE
+19:06:36,866 DEBUG HttpChannel:handle:295 - HttpChannelOverHttp@22afc33c{r=1,c=false,a=DISPATCHED,uri=/userData?surname=Sergei&name=Lavrov&passportSerial=094528&email=Lavrov@mail.ru&country=Russia} action REQUEST_DISPATCH
+19:06:36,867 DEBUG Server:handle:487 - REQUEST GET /userData on HttpChannelOverHttp@22afc33c{r=1,c=false,a=DISPATCHED,uri=/userData?surname=Sergei&name=Lavrov&passportSerial=094528&email=Lavrov@mail.ru&country=Russia}
+19:06:36,867 DEBUG ServletHandler:doScope:500 - servlet null|/userData|null -> usersMicroService.handlers.UsersServlet-2bea5ab4@7bba92ca==usersMicroService.handlers.UsersServlet,-1,false
+19:06:36,868 DEBUG ServletHandler:doHandle:563 - chain=null
+19:06:36,879 DEBUG ServletHolder:initServlet:614 - Servlet.init usersMicroService.handlers.UsersServlet@6def8f85 for usersMicroService.handlers.UsersServlet-2bea5ab4
+19:06:36,914 ERROR UsersServlet:search:104 - Client found and delivered!
+19:06:36,915 DEBUG Server:handle:501 - RESPONSE /userData  200 handled=true
+19:06:36,915 DEBUG HttpChannelState:unhandle:288 - HttpChannelState@1dd388ec{s=DISPATCHED i=true a=null} unhandle DISPATCHED
+19:06:36,921 DEBUG HttpConnection:process:684 - org.eclipse.jetty.server.HttpConnection$SendCallback@22244ef8[PROCESSING][i=ResponseInfo{HTTP/1.1 200 null,-1,false},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@5b52b4cd] generate: NEED_HEADER (null,[p=0,l=2413,c=32768,r=2413],true)@START
+19:06:36,922 DEBUG HttpConnection:process:684 - org.eclipse.jetty.server.HttpConnection$SendCallback@22244ef8[PROCESSING][i=ResponseInfo{HTTP/1.1 200 null,-1,false},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@5b52b4cd] generate: FLUSH ([p=0,l=163,c=8192,r=163],[p=0,l=2413,c=32768,r=2413],true)@COMPLETING
+19:06:36,923 DEBUG WriteFlusher:write:295 - write: WriteFlusher@4fa2c741{IDLE} [HeapByteBuffer@5921ae7e[p=0,l=163,c=8192,r=163]={<<<HTTP/1.1 200 OK\r\n....v20200428)\r\n\r\n>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00},HeapByteBuffer@1ae717cd[p=0,l=2413,c=32768,r=2413]={<<<{\n  "status": "OK..."\n    }\n  }\n}\r\n>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}]
+19:06:36,923 DEBUG WriteFlusher:updateState:118 - update WriteFlusher@4fa2c741{WRITING}:IDLE-->WRITING
+19:06:36,925 DEBUG ChannelEndPoint:flush:188 - flushed 2576 SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,W,76/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:06:36,925 DEBUG WriteFlusher:updateState:118 - update WriteFlusher@4fa2c741{IDLE}:WRITING-->IDLE
+19:06:36,925 DEBUG HttpConnection:process:684 - org.eclipse.jetty.server.HttpConnection$SendCallback@22244ef8[PROCESSING][i=ResponseInfo{HTTP/1.1 200 null,-1,false},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@5b52b4cd] generate: DONE ([p=163,l=163,c=8192,r=0],[p=2413,l=2413,c=32768,r=0],true)@END
+19:06:36,930 DEBUG HttpParser:reset:1565 - reset HttpParser{s=END,0 of 0}
+19:06:36,931 DEBUG HttpParser:setState:1590 - END --> START
+19:06:36,931 DEBUG HttpChannel:handle:447 - HttpChannelOverHttp@22afc33c{r=1,c=false,a=IDLE,uri=} handle exit, result COMPLETE
+19:06:36,932 DEBUG ChannelEndPoint:fill:142 - filled 0 SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,7/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:06:36,934 DEBUG ChannelEndPoint:fill:142 - filled 0 SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,7/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:06:36,934 DEBUG HttpParser:parseNext:1228 - parseNext s=START HeapByteBuffer@556a122c[p=0,l=0,c=16384,r=0]={<<<>>>GET /userData?sur...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+19:06:36,941 DEBUG AbstractConnection:fillInterested:128 - fillInterested HttpConnection@525a8939[FILLING,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,15/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=1,c=false,a=IDLE,uri=}]
+19:06:36,942 DEBUG AbstractConnection:next:275 - FILLING-->FILLING_FILL_INTERESTED HttpConnection@525a8939[FILLING_FILL_INTERESTED,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,16/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=1,c=false,a=IDLE,uri=}]
+19:06:36,943 DEBUG AbstractConnection:next:275 - FILLING_FILL_INTERESTED-->FILL_INTERESTED HttpConnection@525a8939[FILL_INTERESTED,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,17/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=1,c=false,a=IDLE,uri=}]
+19:06:36,943 DEBUG SelectChannelEndPoint:updateLocalInterests:136 - Local interests updating 0 -> 1 for SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,0/30000,HttpConnection}{io=1,kio=0,kro=1}
+19:06:36,944 DEBUG SelectorManager:submit:481 - Queued change org.eclipse.jetty.io.SelectChannelEndPoint$1@5306d971
+19:06:36,944 DEBUG SelectorManager:select:603 - Selector loop woken up from select, 0/1 selected
+19:06:36,944 DEBUG SelectorManager:runChange:526 - Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@5306d971
+19:06:36,945 DEBUG SelectChannelEndPoint:setKeyInterests:160 - Key interests updated 0 -> 1 on SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,1/30000,HttpConnection}{io=1,kio=1,kro=1}
+19:06:36,945 DEBUG SelectorManager:select:600 - Selector loop waiting on select
+19:06:42,824 DEBUG SelectorManager:select:603 - Selector loop woken up from select, 1/1 selected
+19:06:42,825 DEBUG SelectChannelEndPoint:setKeyInterests:160 - Key interests updated 1 -> 0 on SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,5881/30000,HttpConnection}{io=1,kio=0,kro=1}
+19:06:42,826 DEBUG SelectChannelEndPoint:updateLocalInterests:136 - Local interests updating 1 -> 0 for SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,5882/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:06:42,826 DEBUG SelectorManager:submit:481 - Queued change org.eclipse.jetty.io.SelectChannelEndPoint$1@5306d971
+19:06:42,827 DEBUG AbstractConnection:next:275 - FILL_INTERESTED-->FILLING HttpConnection@525a8939[FILLING,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,5884/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=1,c=false,a=IDLE,uri=}]
+19:06:42,828 DEBUG SelectorManager:runChange:526 - Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@5306d971
+19:06:42,828 DEBUG SelectorManager:select:600 - Selector loop waiting on select
+19:06:42,828 DEBUG HttpConnection:onFillable:208 - HttpConnection@525a8939[FILLING,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,5885/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=1,c=false,a=IDLE,uri=}] onFillable HttpChannelState@1dd388ec{s=IDLE i=true a=null}
+19:06:42,829 DEBUG ChannelEndPoint:fill:142 - filled 449 SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,5885/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:06:42,829 DEBUG HttpParser:parseNext:1228 - parseNext s=START HeapByteBuffer@556a122c[p=0,l=449,c=16384,r=449]={<<<GET /userData?sur...l: no-cache\r\n\r\n>>>\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+19:06:42,830 DEBUG HttpParser:setState:1590 - START --> SPACE1
+19:06:42,830 DEBUG HttpParser:setState:1590 - SPACE1 --> URI
+19:06:42,830 DEBUG HttpParser:setState:1590 - URI --> SPACE2
+19:06:42,830 DEBUG HttpParser:setState:1590 - SPACE2 --> REQUEST_VERSION
+19:06:42,830 DEBUG HttpParser:setState:1590 - REQUEST_VERSION --> HEADER
+19:06:42,830 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:42,830 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:42,830 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:42,831 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:42,831 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:42,831 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:42,831 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:42,831 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:42,831 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:42,831 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:42,831 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:42,831 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:42,832 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:42,832 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:42,832 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:42,832 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:42,832 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:42,832 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:42,832 DEBUG HttpParser:setState:1590 - HEADER --> END
+19:06:42,833 DEBUG HttpChannel:messageComplete:701 - HttpChannelOverHttp@22afc33c{r=2,c=false,a=IDLE,uri=/userData?surname=Sergei&name=Lavrov&passpoSerial=094528&email=Lavrov@mail.ru&country=Russia} messageComplete
+19:06:42,833 DEBUG HttpInput:messageComplete:271 - HttpInputOverHTTP@4a0d320c EOF
+19:06:42,833 DEBUG HttpChannel:handle:271 - HttpChannelOverHttp@22afc33c{r=2,c=false,a=IDLE,uri=/userData?surname=Sergei&name=Lavrov&passpoSerial=094528&email=Lavrov@mail.ru&country=Russia} handle enter
+19:06:42,834 DEBUG HttpChannelState:handling:173 - HttpChannelState@1dd388ec{s=IDLE i=true a=null} handling IDLE
+19:06:42,834 DEBUG HttpChannel:handle:295 - HttpChannelOverHttp@22afc33c{r=2,c=false,a=DISPATCHED,uri=/userData?surname=Sergei&name=Lavrov&passpoSerial=094528&email=Lavrov@mail.ru&country=Russia} action REQUEST_DISPATCH
+19:06:42,834 DEBUG Server:handle:487 - REQUEST GET /userData on HttpChannelOverHttp@22afc33c{r=2,c=false,a=DISPATCHED,uri=/userData?surname=Sergei&name=Lavrov&passpoSerial=094528&email=Lavrov@mail.ru&country=Russia}
+19:06:42,835 DEBUG ServletHandler:doScope:500 - servlet null|/userData|null -> usersMicroService.handlers.UsersServlet-2bea5ab4@7bba92ca==usersMicroService.handlers.UsersServlet,-1,true
+19:06:42,835 DEBUG ServletHandler:doHandle:563 - chain=null
+19:06:42,836 ERROR UsersServlet:searchClient:50 - Error: No name, surname, passportSerial or email provided
+19:06:42,837 DEBUG Server:handle:501 - RESPONSE /userData  400 handled=true
+19:06:42,837 DEBUG HttpChannelState:unhandle:288 - HttpChannelState@1dd388ec{s=DISPATCHED i=true a=null} unhandle DISPATCHED
+19:06:42,838 DEBUG HttpConnection:process:684 - org.eclipse.jetty.server.HttpConnection$SendCallback@22244ef8[PROCESSING][i=ResponseInfo{HTTP/1.1 400 null,-1,false},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@250efd90] generate: NEED_HEADER (null,[p=0,l=121,c=32768,r=121],true)@START
+19:06:42,839 DEBUG HttpConnection:process:684 - org.eclipse.jetty.server.HttpConnection$SendCallback@22244ef8[PROCESSING][i=ResponseInfo{HTTP/1.1 400 null,-1,false},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@250efd90] generate: FLUSH ([p=0,l=171,c=8192,r=171],[p=0,l=121,c=32768,r=121],true)@COMPLETING
+19:06:42,839 DEBUG WriteFlusher:write:295 - write: WriteFlusher@4fa2c741{IDLE} [HeapByteBuffer@5921ae7e[p=0,l=171,c=8192,r=171]={<<<HTTP/1.1 400 Bad ....v20200428)\r\n\r\n>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00},HeapByteBuffer@1ae717cd[p=0,l=121,c=32768,r=121]={<<<{\n  "status": "BA...parameters"\n}\r\n>>> "surname": "Serg...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}]
+19:06:42,840 DEBUG WriteFlusher:updateState:118 - update WriteFlusher@4fa2c741{WRITING}:IDLE-->WRITING
+19:06:42,841 DEBUG ChannelEndPoint:flush:188 - flushed 292 SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,W,11/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:06:42,841 DEBUG WriteFlusher:updateState:118 - update WriteFlusher@4fa2c741{IDLE}:WRITING-->IDLE
+19:06:42,842 DEBUG HttpConnection:process:684 - org.eclipse.jetty.server.HttpConnection$SendCallback@22244ef8[PROCESSING][i=ResponseInfo{HTTP/1.1 400 null,-1,false},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@250efd90] generate: DONE ([p=171,l=171,c=8192,r=0],[p=121,l=121,c=32768,r=0],true)@END
+19:06:42,842 DEBUG HttpParser:reset:1565 - reset HttpParser{s=END,0 of -1}
+19:06:42,842 DEBUG HttpParser:setState:1590 - END --> START
+19:06:42,842 DEBUG HttpChannel:handle:447 - HttpChannelOverHttp@22afc33c{r=2,c=false,a=IDLE,uri=} handle exit, result COMPLETE
+19:06:42,843 DEBUG ChannelEndPoint:fill:142 - filled 0 SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,2/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:06:42,844 DEBUG ChannelEndPoint:fill:142 - filled 0 SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,2/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:06:42,844 DEBUG HttpParser:parseNext:1228 - parseNext s=START HeapByteBuffer@556a122c[p=0,l=0,c=16384,r=0]={<<<>>>GET /userData?sur...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+19:06:42,846 DEBUG AbstractConnection:fillInterested:128 - fillInterested HttpConnection@525a8939[FILLING,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,4/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=2,c=false,a=IDLE,uri=}]
+19:06:42,847 DEBUG AbstractConnection:next:275 - FILLING-->FILLING_FILL_INTERESTED HttpConnection@525a8939[FILLING_FILL_INTERESTED,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,5/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=2,c=false,a=IDLE,uri=}]
+19:06:42,847 DEBUG AbstractConnection:next:275 - FILLING_FILL_INTERESTED-->FILL_INTERESTED HttpConnection@525a8939[FILL_INTERESTED,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,6/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=2,c=false,a=IDLE,uri=}]
+19:06:42,848 DEBUG SelectChannelEndPoint:updateLocalInterests:136 - Local interests updating 0 -> 1 for SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,1/30000,HttpConnection}{io=1,kio=0,kro=1}
+19:06:42,848 DEBUG SelectorManager:submit:481 - Queued change org.eclipse.jetty.io.SelectChannelEndPoint$1@5306d971
+19:06:42,848 DEBUG SelectorManager:select:603 - Selector loop woken up from select, 0/1 selected
+19:06:42,849 DEBUG SelectorManager:runChange:526 - Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@5306d971
+19:06:42,849 DEBUG SelectChannelEndPoint:setKeyInterests:160 - Key interests updated 0 -> 1 on SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,2/30000,HttpConnection}{io=1,kio=1,kro=1}
+19:06:42,849 DEBUG SelectorManager:select:600 - Selector loop waiting on select
+19:06:55,144 DEBUG SelectorManager:select:603 - Selector loop woken up from select, 1/1 selected
+19:06:55,145 DEBUG SelectChannelEndPoint:setKeyInterests:160 - Key interests updated 1 -> 0 on SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,12298/30000,HttpConnection}{io=1,kio=0,kro=1}
+19:06:55,145 DEBUG SelectChannelEndPoint:updateLocalInterests:136 - Local interests updating 1 -> 0 for SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,12298/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:06:55,146 DEBUG SelectorManager:submit:481 - Queued change org.eclipse.jetty.io.SelectChannelEndPoint$1@5306d971
+19:06:55,146 DEBUG AbstractConnection:next:275 - FILL_INTERESTED-->FILLING HttpConnection@525a8939[FILLING,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,12299/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=2,c=false,a=IDLE,uri=}]
+19:06:55,146 DEBUG SelectorManager:runChange:526 - Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@5306d971
+19:06:55,147 DEBUG SelectorManager:select:600 - Selector loop waiting on select
+19:06:55,147 DEBUG HttpConnection:onFillable:208 - HttpConnection@525a8939[FILLING,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,12300/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=2,c=false,a=IDLE,uri=}] onFillable HttpChannelState@1dd388ec{s=IDLE i=true a=null}
+19:06:55,148 DEBUG ChannelEndPoint:fill:142 - filled 449 SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,12301/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:06:55,148 DEBUG HttpParser:parseNext:1228 - parseNext s=START HeapByteBuffer@556a122c[p=0,l=449,c=16384,r=449]={<<<GET /userData?sur...l: no-cache\r\n\r\n>>>\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+19:06:55,148 DEBUG HttpParser:setState:1590 - START --> SPACE1
+19:06:55,148 DEBUG HttpParser:setState:1590 - SPACE1 --> URI
+19:06:55,149 DEBUG HttpParser:setState:1590 - URI --> SPACE2
+19:06:55,149 DEBUG HttpParser:setState:1590 - SPACE2 --> REQUEST_VERSION
+19:06:55,149 DEBUG HttpParser:setState:1590 - REQUEST_VERSION --> HEADER
+19:06:55,149 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:55,150 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:55,150 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:55,150 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:55,150 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:55,150 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:55,150 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:55,151 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:55,151 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:55,151 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:55,151 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:55,151 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:55,151 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:55,151 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:55,151 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:55,152 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:55,152 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:55,152 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:55,152 DEBUG HttpParser:setState:1590 - HEADER --> END
+19:06:55,153 DEBUG HttpChannel:messageComplete:701 - HttpChannelOverHttp@22afc33c{r=3,c=false,a=IDLE,uri=/userData?surname=Sergei&name=Lavrov&passpoSerial=094528&email=Lavrov@mail.ru&country=Russia} messageComplete
+19:06:55,153 DEBUG HttpInput:messageComplete:271 - HttpInputOverHTTP@4a0d320c EOF
+19:06:55,154 DEBUG HttpChannel:handle:271 - HttpChannelOverHttp@22afc33c{r=3,c=false,a=IDLE,uri=/userData?surname=Sergei&name=Lavrov&passpoSerial=094528&email=Lavrov@mail.ru&country=Russia} handle enter
+19:06:55,154 DEBUG HttpChannelState:handling:173 - HttpChannelState@1dd388ec{s=IDLE i=true a=null} handling IDLE
+19:06:55,154 DEBUG HttpChannel:handle:295 - HttpChannelOverHttp@22afc33c{r=3,c=false,a=DISPATCHED,uri=/userData?surname=Sergei&name=Lavrov&passpoSerial=094528&email=Lavrov@mail.ru&country=Russia} action REQUEST_DISPATCH
+19:06:55,154 DEBUG Server:handle:487 - REQUEST GET /userData on HttpChannelOverHttp@22afc33c{r=3,c=false,a=DISPATCHED,uri=/userData?surname=Sergei&name=Lavrov&passpoSerial=094528&email=Lavrov@mail.ru&country=Russia}
+19:06:55,154 DEBUG ServletHandler:doScope:500 - servlet null|/userData|null -> usersMicroService.handlers.UsersServlet-2bea5ab4@7bba92ca==usersMicroService.handlers.UsersServlet,-1,true
+19:06:55,155 DEBUG ServletHandler:doHandle:563 - chain=null
+19:06:55,155 ERROR UsersServlet:searchClient:50 - Error: No name, surname, passportSerial or email provided
+19:06:55,155 DEBUG Server:handle:501 - RESPONSE /userData  400 handled=true
+19:06:55,155 DEBUG HttpChannelState:unhandle:288 - HttpChannelState@1dd388ec{s=DISPATCHED i=true a=null} unhandle DISPATCHED
+19:06:55,156 DEBUG HttpConnection:process:684 - org.eclipse.jetty.server.HttpConnection$SendCallback@22244ef8[PROCESSING][i=ResponseInfo{HTTP/1.1 400 null,-1,false},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@2611ce3] generate: NEED_HEADER (null,[p=0,l=121,c=32768,r=121],true)@START
+19:06:55,156 DEBUG HttpConnection:process:684 - org.eclipse.jetty.server.HttpConnection$SendCallback@22244ef8[PROCESSING][i=ResponseInfo{HTTP/1.1 400 null,-1,false},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@2611ce3] generate: FLUSH ([p=0,l=171,c=8192,r=171],[p=0,l=121,c=32768,r=121],true)@COMPLETING
+19:06:55,156 DEBUG WriteFlusher:write:295 - write: WriteFlusher@4fa2c741{IDLE} [HeapByteBuffer@5921ae7e[p=0,l=171,c=8192,r=171]={<<<HTTP/1.1 400 Bad ....v20200428)\r\n\r\n>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00},HeapByteBuffer@1ae717cd[p=0,l=121,c=32768,r=121]={<<<{\n  "status": "BA...parameters"\n}\r\n>>> "surname": "Serg...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}]
+19:06:55,157 DEBUG WriteFlusher:updateState:118 - update WriteFlusher@4fa2c741{WRITING}:IDLE-->WRITING
+19:06:55,157 DEBUG ChannelEndPoint:flush:188 - flushed 292 SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,W,9/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:06:55,158 DEBUG WriteFlusher:updateState:118 - update WriteFlusher@4fa2c741{IDLE}:WRITING-->IDLE
+19:06:55,158 DEBUG HttpConnection:process:684 - org.eclipse.jetty.server.HttpConnection$SendCallback@22244ef8[PROCESSING][i=ResponseInfo{HTTP/1.1 400 null,-1,false},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@2611ce3] generate: DONE ([p=171,l=171,c=8192,r=0],[p=121,l=121,c=32768,r=0],true)@END
+19:06:55,158 DEBUG HttpParser:reset:1565 - reset HttpParser{s=END,0 of -1}
+19:06:55,158 DEBUG HttpParser:setState:1590 - END --> START
+19:06:55,159 DEBUG HttpChannel:handle:447 - HttpChannelOverHttp@22afc33c{r=3,c=false,a=IDLE,uri=} handle exit, result COMPLETE
+19:06:55,159 DEBUG ChannelEndPoint:fill:142 - filled 0 SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,1/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:06:55,160 DEBUG ChannelEndPoint:fill:142 - filled 0 SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,1/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:06:55,160 DEBUG HttpParser:parseNext:1228 - parseNext s=START HeapByteBuffer@556a122c[p=0,l=0,c=16384,r=0]={<<<>>>GET /userData?sur...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+19:06:55,161 DEBUG AbstractConnection:fillInterested:128 - fillInterested HttpConnection@525a8939[FILLING,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,2/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=3,c=false,a=IDLE,uri=}]
+19:06:55,161 DEBUG AbstractConnection:next:275 - FILLING-->FILLING_FILL_INTERESTED HttpConnection@525a8939[FILLING_FILL_INTERESTED,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,3/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=3,c=false,a=IDLE,uri=}]
+19:06:55,162 DEBUG AbstractConnection:next:275 - FILLING_FILL_INTERESTED-->FILL_INTERESTED HttpConnection@525a8939[FILL_INTERESTED,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,3/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=3,c=false,a=IDLE,uri=}]
+19:06:55,162 DEBUG SelectChannelEndPoint:updateLocalInterests:136 - Local interests updating 0 -> 1 for SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,0/30000,HttpConnection}{io=1,kio=0,kro=1}
+19:06:55,162 DEBUG SelectorManager:submit:481 - Queued change org.eclipse.jetty.io.SelectChannelEndPoint$1@5306d971
+19:06:55,163 DEBUG SelectorManager:select:603 - Selector loop woken up from select, 0/1 selected
+19:06:55,163 DEBUG SelectorManager:runChange:526 - Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@5306d971
+19:06:55,163 DEBUG SelectChannelEndPoint:setKeyInterests:160 - Key interests updated 0 -> 1 on SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,1/30000,HttpConnection}{io=1,kio=1,kro=1}
+19:06:55,163 DEBUG SelectorManager:select:600 - Selector loop waiting on select
+19:06:59,955 DEBUG SelectorManager:select:603 - Selector loop woken up from select, 1/1 selected
+19:06:59,956 DEBUG SelectChannelEndPoint:setKeyInterests:160 - Key interests updated 1 -> 0 on SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,4793/30000,HttpConnection}{io=1,kio=0,kro=1}
+19:06:59,956 DEBUG SelectChannelEndPoint:updateLocalInterests:136 - Local interests updating 1 -> 0 for SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,4794/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:06:59,956 DEBUG SelectorManager:submit:481 - Queued change org.eclipse.jetty.io.SelectChannelEndPoint$1@5306d971
+19:06:59,957 DEBUG AbstractConnection:next:275 - FILL_INTERESTED-->FILLING HttpConnection@525a8939[FILLING,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,4795/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=3,c=false,a=IDLE,uri=}]
+19:06:59,957 DEBUG SelectorManager:runChange:526 - Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@5306d971
+19:06:59,957 DEBUG SelectorManager:select:600 - Selector loop waiting on select
+19:06:59,958 DEBUG HttpConnection:onFillable:208 - HttpConnection@525a8939[FILLING,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,4795/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=3,c=false,a=IDLE,uri=}] onFillable HttpChannelState@1dd388ec{s=IDLE i=true a=null}
+19:06:59,958 DEBUG ChannelEndPoint:fill:142 - filled 449 SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,4796/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:06:59,959 DEBUG HttpParser:parseNext:1228 - parseNext s=START HeapByteBuffer@556a122c[p=0,l=449,c=16384,r=449]={<<<GET /userData?sur...l: no-cache\r\n\r\n>>>\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+19:06:59,959 DEBUG HttpParser:setState:1590 - START --> SPACE1
+19:06:59,960 DEBUG HttpParser:setState:1590 - SPACE1 --> URI
+19:06:59,960 DEBUG HttpParser:setState:1590 - URI --> SPACE2
+19:06:59,960 DEBUG HttpParser:setState:1590 - SPACE2 --> REQUEST_VERSION
+19:06:59,960 DEBUG HttpParser:setState:1590 - REQUEST_VERSION --> HEADER
+19:06:59,960 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:59,960 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:59,961 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:59,961 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:59,961 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:59,961 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:59,961 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:59,961 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:59,962 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:59,962 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:59,962 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:59,962 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:59,962 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:59,962 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:59,962 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:59,962 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:59,962 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:06:59,963 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:06:59,963 DEBUG HttpParser:setState:1590 - HEADER --> END
+19:06:59,963 DEBUG HttpChannel:messageComplete:701 - HttpChannelOverHttp@22afc33c{r=4,c=false,a=IDLE,uri=/userData?surname=Sergei&name=Lavrov&passpoSerial=094528&email=Lavrov@mail.ru&country=Russia} messageComplete
+19:06:59,977 DEBUG HttpInput:messageComplete:271 - HttpInputOverHTTP@4a0d320c EOF
+19:06:59,977 DEBUG HttpChannel:handle:271 - HttpChannelOverHttp@22afc33c{r=4,c=false,a=IDLE,uri=/userData?surname=Sergei&name=Lavrov&passpoSerial=094528&email=Lavrov@mail.ru&country=Russia} handle enter
+19:06:59,978 DEBUG HttpChannelState:handling:173 - HttpChannelState@1dd388ec{s=IDLE i=true a=null} handling IDLE
+19:06:59,978 DEBUG HttpChannel:handle:295 - HttpChannelOverHttp@22afc33c{r=4,c=false,a=DISPATCHED,uri=/userData?surname=Sergei&name=Lavrov&passpoSerial=094528&email=Lavrov@mail.ru&country=Russia} action REQUEST_DISPATCH
+19:06:59,978 DEBUG Server:handle:487 - REQUEST GET /userData on HttpChannelOverHttp@22afc33c{r=4,c=false,a=DISPATCHED,uri=/userData?surname=Sergei&name=Lavrov&passpoSerial=094528&email=Lavrov@mail.ru&country=Russia}
+19:06:59,978 DEBUG ServletHandler:doScope:500 - servlet null|/userData|null -> usersMicroService.handlers.UsersServlet-2bea5ab4@7bba92ca==usersMicroService.handlers.UsersServlet,-1,true
+19:06:59,979 DEBUG ServletHandler:doHandle:563 - chain=null
+19:06:59,980 ERROR UsersServlet:searchClient:50 - Error: No name, surname, passportSerial or email provided
+19:06:59,980 DEBUG Server:handle:501 - RESPONSE /userData  400 handled=true
+19:06:59,981 DEBUG HttpChannelState:unhandle:288 - HttpChannelState@1dd388ec{s=DISPATCHED i=true a=null} unhandle DISPATCHED
+19:06:59,981 DEBUG HttpConnection:process:684 - org.eclipse.jetty.server.HttpConnection$SendCallback@22244ef8[PROCESSING][i=ResponseInfo{HTTP/1.1 400 null,-1,false},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@4d5e0583] generate: NEED_HEADER (null,[p=0,l=121,c=32768,r=121],true)@START
+19:06:59,982 DEBUG HttpConnection:process:684 - org.eclipse.jetty.server.HttpConnection$SendCallback@22244ef8[PROCESSING][i=ResponseInfo{HTTP/1.1 400 null,-1,false},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@4d5e0583] generate: FLUSH ([p=0,l=171,c=8192,r=171],[p=0,l=121,c=32768,r=121],true)@COMPLETING
+19:06:59,982 DEBUG WriteFlusher:write:295 - write: WriteFlusher@4fa2c741{IDLE} [HeapByteBuffer@5921ae7e[p=0,l=171,c=8192,r=171]={<<<HTTP/1.1 400 Bad ....v20200428)\r\n\r\n>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00},HeapByteBuffer@1ae717cd[p=0,l=121,c=32768,r=121]={<<<{\n  "status": "BA...parameters"\n}\r\n>>> "surname": "Serg...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}]
+19:06:59,983 DEBUG WriteFlusher:updateState:118 - update WriteFlusher@4fa2c741{WRITING}:IDLE-->WRITING
+19:06:59,983 DEBUG ChannelEndPoint:flush:188 - flushed 292 SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,W,24/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:06:59,984 DEBUG WriteFlusher:updateState:118 - update WriteFlusher@4fa2c741{IDLE}:WRITING-->IDLE
+19:06:59,984 DEBUG HttpConnection:process:684 - org.eclipse.jetty.server.HttpConnection$SendCallback@22244ef8[PROCESSING][i=ResponseInfo{HTTP/1.1 400 null,-1,false},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@4d5e0583] generate: DONE ([p=171,l=171,c=8192,r=0],[p=121,l=121,c=32768,r=0],true)@END
+19:06:59,984 DEBUG HttpParser:reset:1565 - reset HttpParser{s=END,0 of -1}
+19:06:59,985 DEBUG HttpParser:setState:1590 - END --> START
+19:06:59,985 DEBUG HttpChannel:handle:447 - HttpChannelOverHttp@22afc33c{r=4,c=false,a=IDLE,uri=} handle exit, result COMPLETE
+19:06:59,985 DEBUG ChannelEndPoint:fill:142 - filled 0 SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,1/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:06:59,985 DEBUG ChannelEndPoint:fill:142 - filled 0 SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,1/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:06:59,985 DEBUG HttpParser:parseNext:1228 - parseNext s=START HeapByteBuffer@556a122c[p=0,l=0,c=16384,r=0]={<<<>>>GET /userData?sur...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+19:06:59,986 DEBUG AbstractConnection:fillInterested:128 - fillInterested HttpConnection@525a8939[FILLING,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,2/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=4,c=false,a=IDLE,uri=}]
+19:06:59,986 DEBUG AbstractConnection:next:275 - FILLING-->FILLING_FILL_INTERESTED HttpConnection@525a8939[FILLING_FILL_INTERESTED,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,2/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=4,c=false,a=IDLE,uri=}]
+19:06:59,987 DEBUG AbstractConnection:next:275 - FILLING_FILL_INTERESTED-->FILL_INTERESTED HttpConnection@525a8939[FILL_INTERESTED,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,2/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=4,c=false,a=IDLE,uri=}]
+19:06:59,987 DEBUG SelectChannelEndPoint:updateLocalInterests:136 - Local interests updating 0 -> 1 for SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,0/30000,HttpConnection}{io=1,kio=0,kro=1}
+19:06:59,987 DEBUG SelectorManager:submit:481 - Queued change org.eclipse.jetty.io.SelectChannelEndPoint$1@5306d971
+19:06:59,987 DEBUG SelectorManager:select:603 - Selector loop woken up from select, 0/1 selected
+19:06:59,988 DEBUG SelectorManager:runChange:526 - Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@5306d971
+19:06:59,988 DEBUG SelectChannelEndPoint:setKeyInterests:160 - Key interests updated 0 -> 1 on SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,1/30000,HttpConnection}{io=1,kio=1,kro=1}
+19:06:59,988 DEBUG SelectorManager:select:600 - Selector loop waiting on select
+19:07:04,948 DEBUG SelectorManager:select:603 - Selector loop woken up from select, 1/1 selected
+19:07:04,948 DEBUG SelectChannelEndPoint:setKeyInterests:160 - Key interests updated 1 -> 0 on SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,4961/30000,HttpConnection}{io=1,kio=0,kro=1}
+19:07:04,949 DEBUG SelectChannelEndPoint:updateLocalInterests:136 - Local interests updating 1 -> 0 for SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,4962/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:07:04,949 DEBUG SelectorManager:submit:481 - Queued change org.eclipse.jetty.io.SelectChannelEndPoint$1@5306d971
+19:07:04,949 DEBUG AbstractConnection:next:275 - FILL_INTERESTED-->FILLING HttpConnection@525a8939[FILLING,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,4962/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=4,c=false,a=IDLE,uri=}]
+19:07:04,950 DEBUG SelectorManager:runChange:526 - Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@5306d971
+19:07:04,950 DEBUG SelectorManager:select:600 - Selector loop waiting on select
+19:07:04,950 DEBUG HttpConnection:onFillable:208 - HttpConnection@525a8939[FILLING,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,4963/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=4,c=false,a=IDLE,uri=}] onFillable HttpChannelState@1dd388ec{s=IDLE i=true a=null}
+19:07:04,951 DEBUG ChannelEndPoint:fill:142 - filled 451 SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,4964/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:07:04,951 DEBUG HttpParser:parseNext:1228 - parseNext s=START HeapByteBuffer@556a122c[p=0,l=451,c=16384,r=451]={<<<GET /userData?sur...l: no-cache\r\n\r\n>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+19:07:04,951 DEBUG HttpParser:setState:1590 - START --> SPACE1
+19:07:04,951 DEBUG HttpParser:setState:1590 - SPACE1 --> URI
+19:07:04,951 DEBUG HttpParser:setState:1590 - URI --> SPACE2
+19:07:04,951 DEBUG HttpParser:setState:1590 - SPACE2 --> REQUEST_VERSION
+19:07:04,952 DEBUG HttpParser:setState:1590 - REQUEST_VERSION --> HEADER
+19:07:04,952 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:07:04,952 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:07:04,952 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:07:04,952 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:07:04,953 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:07:04,953 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:07:04,953 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:07:04,953 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:07:04,953 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:07:04,953 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:07:04,953 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:07:04,954 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:07:04,954 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:07:04,954 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:07:04,954 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:07:04,954 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:07:04,954 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:07:04,954 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:07:04,955 DEBUG HttpParser:setState:1590 - HEADER --> END
+19:07:04,955 DEBUG HttpChannel:messageComplete:701 - HttpChannelOverHttp@22afc33c{r=5,c=false,a=IDLE,uri=/userData?surname=Sergei&name=Lavrov&passportSerial=094528&email=Lavrov@mail.ru&country=Russia} messageComplete
+19:07:04,955 DEBUG HttpInput:messageComplete:271 - HttpInputOverHTTP@4a0d320c EOF
+19:07:04,955 DEBUG HttpChannel:handle:271 - HttpChannelOverHttp@22afc33c{r=5,c=false,a=IDLE,uri=/userData?surname=Sergei&name=Lavrov&passportSerial=094528&email=Lavrov@mail.ru&country=Russia} handle enter
+19:07:04,956 DEBUG HttpChannelState:handling:173 - HttpChannelState@1dd388ec{s=IDLE i=true a=null} handling IDLE
+19:07:04,956 DEBUG HttpChannel:handle:295 - HttpChannelOverHttp@22afc33c{r=5,c=false,a=DISPATCHED,uri=/userData?surname=Sergei&name=Lavrov&passportSerial=094528&email=Lavrov@mail.ru&country=Russia} action REQUEST_DISPATCH
+19:07:04,956 DEBUG Server:handle:487 - REQUEST GET /userData on HttpChannelOverHttp@22afc33c{r=5,c=false,a=DISPATCHED,uri=/userData?surname=Sergei&name=Lavrov&passportSerial=094528&email=Lavrov@mail.ru&country=Russia}
+19:07:04,956 DEBUG ServletHandler:doScope:500 - servlet null|/userData|null -> usersMicroService.handlers.UsersServlet-2bea5ab4@7bba92ca==usersMicroService.handlers.UsersServlet,-1,true
+19:07:04,956 DEBUG ServletHandler:doHandle:563 - chain=null
+19:07:04,958 ERROR UsersServlet:search:104 - Client found and delivered!
+19:07:04,959 DEBUG Server:handle:501 - RESPONSE /userData  200 handled=true
+19:07:04,959 DEBUG HttpChannelState:unhandle:288 - HttpChannelState@1dd388ec{s=DISPATCHED i=true a=null} unhandle DISPATCHED
+19:07:04,960 DEBUG HttpConnection:process:684 - org.eclipse.jetty.server.HttpConnection$SendCallback@22244ef8[PROCESSING][i=ResponseInfo{HTTP/1.1 200 null,-1,false},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@2bc90741] generate: NEED_HEADER (null,[p=0,l=2413,c=32768,r=2413],true)@START
+19:07:04,960 DEBUG HttpConnection:process:684 - org.eclipse.jetty.server.HttpConnection$SendCallback@22244ef8[PROCESSING][i=ResponseInfo{HTTP/1.1 200 null,-1,false},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@2bc90741] generate: FLUSH ([p=0,l=163,c=8192,r=163],[p=0,l=2413,c=32768,r=2413],true)@COMPLETING
+19:07:04,961 DEBUG WriteFlusher:write:295 - write: WriteFlusher@4fa2c741{IDLE} [HeapByteBuffer@5921ae7e[p=0,l=163,c=8192,r=163]={<<<HTTP/1.1 200 OK\r\n....v20200428)\r\n\r\n>>>428)\r\n\r\n\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00},HeapByteBuffer@1ae717cd[p=0,l=2413,c=32768,r=2413]={<<<{\n  "status": "OK..."\n    }\n  }\n}\r\n>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}]
+19:07:04,961 DEBUG WriteFlusher:updateState:118 - update WriteFlusher@4fa2c741{WRITING}:IDLE-->WRITING
+19:07:04,962 DEBUG ChannelEndPoint:flush:188 - flushed 2576 SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,W,11/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:07:04,962 DEBUG WriteFlusher:updateState:118 - update WriteFlusher@4fa2c741{IDLE}:WRITING-->IDLE
+19:07:04,963 DEBUG HttpConnection:process:684 - org.eclipse.jetty.server.HttpConnection$SendCallback@22244ef8[PROCESSING][i=ResponseInfo{HTTP/1.1 200 null,-1,false},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@2bc90741] generate: DONE ([p=163,l=163,c=8192,r=0],[p=2413,l=2413,c=32768,r=0],true)@END
+19:07:04,963 DEBUG HttpParser:reset:1565 - reset HttpParser{s=END,0 of -1}
+19:07:04,963 DEBUG HttpParser:setState:1590 - END --> START
+19:07:04,963 DEBUG HttpChannel:handle:447 - HttpChannelOverHttp@22afc33c{r=5,c=false,a=IDLE,uri=} handle exit, result COMPLETE
+19:07:04,963 DEBUG ChannelEndPoint:fill:142 - filled 0 SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,1/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:07:04,963 DEBUG ChannelEndPoint:fill:142 - filled 0 SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,1/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:07:04,964 DEBUG HttpParser:parseNext:1228 - parseNext s=START HeapByteBuffer@556a122c[p=0,l=0,c=16384,r=0]={<<<>>>GET /userData?sur...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+19:07:04,964 DEBUG AbstractConnection:fillInterested:128 - fillInterested HttpConnection@525a8939[FILLING,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,2/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=5,c=false,a=IDLE,uri=}]
+19:07:04,964 DEBUG AbstractConnection:next:275 - FILLING-->FILLING_FILL_INTERESTED HttpConnection@525a8939[FILLING_FILL_INTERESTED,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,2/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=5,c=false,a=IDLE,uri=}]
+19:07:04,965 DEBUG AbstractConnection:next:275 - FILLING_FILL_INTERESTED-->FILL_INTERESTED HttpConnection@525a8939[FILL_INTERESTED,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,3/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=5,c=false,a=IDLE,uri=}]
+19:07:04,965 DEBUG SelectChannelEndPoint:updateLocalInterests:136 - Local interests updating 0 -> 1 for SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,0/30000,HttpConnection}{io=1,kio=0,kro=1}
+19:07:04,965 DEBUG SelectorManager:submit:481 - Queued change org.eclipse.jetty.io.SelectChannelEndPoint$1@5306d971
+19:07:04,965 DEBUG SelectorManager:select:603 - Selector loop woken up from select, 0/1 selected
+19:07:04,966 DEBUG SelectorManager:runChange:526 - Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@5306d971
+19:07:04,966 DEBUG SelectChannelEndPoint:setKeyInterests:160 - Key interests updated 0 -> 1 on SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,1/30000,HttpConnection}{io=1,kio=1,kro=1}
+19:07:04,966 DEBUG SelectorManager:select:600 - Selector loop waiting on select
+19:07:06,752 DEBUG IdleTimeout:checkIdleTimeout:151 - SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,1787/30000,HttpConnection}{io=1,kio=1,kro=1} idle timeout check, elapsed: 1787 ms, remaining: 28213 ms
+19:07:31,824 DEBUG SelectorManager:select:603 - Selector loop woken up from select, 1/1 selected
+19:07:31,824 DEBUG SelectChannelEndPoint:setKeyInterests:160 - Key interests updated 1 -> 0 on SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,26859/30000,HttpConnection}{io=1,kio=0,kro=1}
+19:07:31,824 DEBUG SelectChannelEndPoint:updateLocalInterests:136 - Local interests updating 1 -> 0 for SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,26859/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:07:31,825 DEBUG SelectorManager:submit:481 - Queued change org.eclipse.jetty.io.SelectChannelEndPoint$1@5306d971
+19:07:31,825 DEBUG AbstractConnection:next:275 - FILL_INTERESTED-->FILLING HttpConnection@525a8939[FILLING,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,26860/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=5,c=false,a=IDLE,uri=}]
+19:07:31,825 DEBUG SelectorManager:runChange:526 - Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@5306d971
+19:07:31,825 DEBUG SelectorManager:select:600 - Selector loop waiting on select
+19:07:31,826 DEBUG HttpConnection:onFillable:208 - HttpConnection@525a8939[FILLING,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,26860/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=5,c=false,a=IDLE,uri=}] onFillable HttpChannelState@1dd388ec{s=IDLE i=true a=null}
+19:07:31,827 DEBUG ChannelEndPoint:fill:142 - filled 363 SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,26861/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:07:31,827 DEBUG HttpParser:parseNext:1228 - parseNext s=START HeapByteBuffer@556a122c[p=0,l=363,c=16384,r=363]={<<<GET /heart HTTP/1...l: no-cache\r\n\r\n>>>e901=ee2c36db-f8f...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+19:07:31,827 DEBUG HttpParser:setState:1590 - START --> SPACE1
+19:07:31,827 DEBUG HttpParser:setState:1590 - SPACE1 --> URI
+19:07:31,827 DEBUG HttpParser:setState:1590 - URI --> SPACE2
+19:07:31,827 DEBUG HttpParser:setState:1590 - SPACE2 --> REQUEST_VERSION
+19:07:31,827 DEBUG HttpParser:setState:1590 - REQUEST_VERSION --> HEADER
+19:07:31,827 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:07:31,827 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:07:31,827 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:07:31,827 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:07:31,827 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:07:31,827 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:07:31,828 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:07:31,828 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:07:31,828 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:07:31,828 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:07:31,828 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:07:31,828 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:07:31,828 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:07:31,829 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:07:31,829 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:07:31,829 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:07:31,829 DEBUG HttpParser:setState:1590 - HEADER --> HEADER_IN_VALUE
+19:07:31,829 DEBUG HttpParser:setState:1590 - HEADER_IN_VALUE --> HEADER
+19:07:31,829 DEBUG HttpParser:setState:1590 - HEADER --> END
+19:07:31,829 DEBUG HttpChannel:messageComplete:701 - HttpChannelOverHttp@22afc33c{r=6,c=false,a=IDLE,uri=/heart} messageComplete
+19:07:31,830 DEBUG HttpInput:messageComplete:271 - HttpInputOverHTTP@4a0d320c EOF
+19:07:31,830 DEBUG HttpChannel:handle:271 - HttpChannelOverHttp@22afc33c{r=6,c=false,a=IDLE,uri=/heart} handle enter
+19:07:31,830 DEBUG HttpChannelState:handling:173 - HttpChannelState@1dd388ec{s=IDLE i=true a=null} handling IDLE
+19:07:31,830 DEBUG HttpChannel:handle:295 - HttpChannelOverHttp@22afc33c{r=6,c=false,a=DISPATCHED,uri=/heart} action REQUEST_DISPATCH
+19:07:31,831 DEBUG Server:handle:487 - REQUEST GET /heart on HttpChannelOverHttp@22afc33c{r=6,c=false,a=DISPATCHED,uri=/heart}
+19:07:31,831 DEBUG ServletHandler:doScope:500 - servlet null|/heart|null -> usersMicroService.handlers.HeartbeatServlet-58a90037@d980b193==usersMicroService.handlers.HeartbeatServlet,-1,false
+19:07:31,831 DEBUG ServletHandler:doHandle:563 - chain=null
+19:07:31,831 DEBUG ServletHolder:initServlet:614 - Servlet.init usersMicroService.handlers.HeartbeatServlet@405505b for usersMicroService.handlers.HeartbeatServlet-58a90037
+19:07:31,831 DEBUG Server:handle:501 - RESPONSE /heart  200 handled=true
+19:07:31,832 DEBUG HttpChannelState:unhandle:288 - HttpChannelState@1dd388ec{s=DISPATCHED i=true a=null} unhandle DISPATCHED
+19:07:31,832 DEBUG HttpConnection:process:684 - org.eclipse.jetty.server.HttpConnection$SendCallback@22244ef8[PROCESSING][i=ResponseInfo{HTTP/1.1 200 null,-1,false},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@766ed133] generate: NEED_HEADER (null,[p=0,l=22,c=32768,r=22],true)@START
+19:07:31,832 DEBUG HttpConnection:process:684 - org.eclipse.jetty.server.HttpConnection$SendCallback@22244ef8[PROCESSING][i=ResponseInfo{HTTP/1.1 200 null,-1,false},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@766ed133] generate: FLUSH ([p=0,l=161,c=8192,r=161],[p=0,l=22,c=32768,r=22],true)@COMPLETING
+19:07:31,832 DEBUG WriteFlusher:write:295 - write: WriteFlusher@4fa2c741{IDLE} [HeapByteBuffer@5921ae7e[p=0,l=161,c=8192,r=161]={<<<HTTP/1.1 200 OK\r\n....v20200428)\r\n\r\n>>>\r\n428)\r\n\r\n\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00},HeapByteBuffer@1ae717cd[p=0,l=22,c=32768,r=22]={<<<{\n  "status": "OK"\n}\r\n>>>"details": "The r...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}]
+19:07:31,833 DEBUG WriteFlusher:updateState:118 - update WriteFlusher@4fa2c741{WRITING}:IDLE-->WRITING
+19:07:31,833 DEBUG ChannelEndPoint:flush:188 - flushed 183 SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,W,6/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:07:31,833 DEBUG WriteFlusher:updateState:118 - update WriteFlusher@4fa2c741{IDLE}:WRITING-->IDLE
+19:07:31,834 DEBUG HttpConnection:process:684 - org.eclipse.jetty.server.HttpConnection$SendCallback@22244ef8[PROCESSING][i=ResponseInfo{HTTP/1.1 200 null,-1,false},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@766ed133] generate: DONE ([p=161,l=161,c=8192,r=0],[p=22,l=22,c=32768,r=0],true)@END
+19:07:31,834 DEBUG HttpParser:reset:1565 - reset HttpParser{s=END,0 of -1}
+19:07:31,834 DEBUG HttpParser:setState:1590 - END --> START
+19:07:31,834 DEBUG HttpChannel:handle:447 - HttpChannelOverHttp@22afc33c{r=6,c=false,a=IDLE,uri=} handle exit, result COMPLETE
+19:07:31,834 DEBUG ChannelEndPoint:fill:142 - filled 0 SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,1/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:07:31,835 DEBUG ChannelEndPoint:fill:142 - filled 0 SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,1/30000,HttpConnection}{io=0,kio=0,kro=1}
+19:07:31,835 DEBUG HttpParser:parseNext:1228 - parseNext s=START HeapByteBuffer@556a122c[p=0,l=0,c=16384,r=0]={<<<>>>GET /heart HTTP/1...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+19:07:31,835 DEBUG AbstractConnection:fillInterested:128 - fillInterested HttpConnection@525a8939[FILLING,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,2/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=6,c=false,a=IDLE,uri=}]
+19:07:31,836 DEBUG AbstractConnection:next:275 - FILLING-->FILLING_FILL_INTERESTED HttpConnection@525a8939[FILLING_FILL_INTERESTED,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,3/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=6,c=false,a=IDLE,uri=}]
+19:07:31,836 DEBUG AbstractConnection:next:275 - FILLING_FILL_INTERESTED-->FILL_INTERESTED HttpConnection@525a8939[FILL_INTERESTED,SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,-,-,3/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@22afc33c{r=6,c=false,a=IDLE,uri=}]
+19:07:31,836 DEBUG SelectChannelEndPoint:updateLocalInterests:136 - Local interests updating 0 -> 1 for SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,0/30000,HttpConnection}{io=1,kio=0,kro=1}
+19:07:31,836 DEBUG SelectorManager:submit:481 - Queued change org.eclipse.jetty.io.SelectChannelEndPoint$1@5306d971
+19:07:31,837 DEBUG SelectorManager:select:603 - Selector loop woken up from select, 0/1 selected
+19:07:31,837 DEBUG SelectorManager:runChange:526 - Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@5306d971
+19:07:31,837 DEBUG SelectChannelEndPoint:setKeyInterests:160 - Key interests updated 0 -> 1 on SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,1/30000,HttpConnection}{io=1,kio=1,kro=1}
+19:07:31,837 DEBUG SelectorManager:select:600 - Selector loop waiting on select
+19:07:34,967 DEBUG IdleTimeout:checkIdleTimeout:151 - SelectChannelEndPoint@5fa95975{/0:0:0:0:0:0:0:1:59068<->7000,Open,in,out,R,-,3131/30000,HttpConnection}{io=1,kio=1,kro=1} idle timeout check, elapsed: 3131 ms, remaining: 26869 ms
