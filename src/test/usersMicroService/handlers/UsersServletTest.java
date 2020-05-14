@@ -8,7 +8,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import usersMicroService.Main;
-import usersMicroService.classes.fileProcessor;
+import usersMicroService.processings.FileProcessing;
 
 import javax.servlet.http.HttpServletResponse;
 
@@ -17,10 +17,10 @@ import static org.junit.Assert.*;
 public class UsersServletTest {
 
     @Before
-    public void init()
+    public void setUp()
     {
         try {
-            fileProcessor.loadFromJsonFile();
+            FileProcessing.loadFromJsonFile();
         } catch (Exception e) {
             org.junit.Assert.fail();
         }
@@ -30,7 +30,7 @@ public class UsersServletTest {
     @Test
     public void doGetFound() throws Exception
     {
-        String url = "http://localhost:7000/userData?clientId=3";
+        String url = "http://localhost:7000/userData?surname=Sergei&name=Lavrov&passportSerial=094528&email=Lavrov@mail.ru&country=Russia";
         HttpClient client = HttpClientBuilder.create().build();
         HttpGet request = new HttpGet(url);
         HttpResponse response = client.execute(request);
@@ -40,25 +40,35 @@ public class UsersServletTest {
     @Test
     public void doGetNoFound() throws Exception
     {
-        String url = "http://localhost:7000/userData?clientId=81";
+        String url = "http://localhost:7000/userData?surname=Sergei&name=Lavrovvv&passportSerial=094528&email=Lavrov@mail.ru&country=Russia";
         HttpClient client = HttpClientBuilder.create().build();
         HttpGet request = new HttpGet(url);
         HttpResponse response = client.execute(request);
-        org.junit.Assert.assertEquals(HttpServletResponse.SC_NO_CONTENT, response.getStatusLine().getStatusCode());
+        org.junit.Assert.assertEquals(HttpServletResponse.SC_NOT_FOUND, response.getStatusLine().getStatusCode());
     }
 
     @Test
     public void doGetBadRequest() throws Exception
     {
-        String url = "http://localhost:7000/userData?client23Id=81";
+        String url = "http://localhost:7000/userData?sssurname=Sergei&name=Lavrov&passportSerial=094dfgd77528&email=Lavrov@mail.ru&country=Russia";
         HttpClient client = HttpClientBuilder.create().build();
         HttpGet request = new HttpGet(url);
         HttpResponse response = client.execute(request);
         org.junit.Assert.assertEquals(HttpServletResponse.SC_BAD_REQUEST, response.getStatusLine().getStatusCode());
     }
 
+    @Test
+    public void doGetPageError() throws Exception
+    {
+        String url = "http://localhost:7000/userddData?sssurname=Sergei&name=Lavrov&passportSerial=094dfgd77528&email=Lavrov@mail.ru&country=Russia";
+        HttpClient client = HttpClientBuilder.create().build();
+        HttpGet request = new HttpGet(url);
+        HttpResponse response = client.execute(request);
+        org.junit.Assert.assertEquals(HttpServletResponse.SC_NOT_FOUND, response.getStatusLine().getStatusCode());
+    }
+
     @After
-    public void entTest()
+    public void tearDown()
     {
         Main.stopServer();
     }
